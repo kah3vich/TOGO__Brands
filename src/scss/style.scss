@@ -1,0 +1,249 @@
+@import "fonts";
+
+//! --------------------------------------------------------------------
+//! Переменные ---------------------------------------------------------
+//! --------------------------------------------------------------------
+
+$bg: #fff;
+
+//! --------------------------------------------------------------------
+//! Стили --------------------------------------------------------------
+//! --------------------------------------------------------------------
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	user-select: none;
+}
+body {
+	background-color: $bg;
+	font-family: "Circe";
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+input {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border: none;
+}
+button {
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+.containers {
+	max-width: 1440px;
+	padding: 0 120px;
+	margin: 0 auto;
+	width: 100%;
+}
+ol,
+ul {
+	padding-left: 0;
+}
+dl,
+ol,
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.display-n {
+	display: none !important;
+}
+
+.header {
+	width: 100%;
+	padding: 30px 0;
+	background: transparent;
+	position: relative;
+	z-index: 10;
+	&__block {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__logo {
+		cursor: pointer;
+		height: 50px;
+	}
+	&__l {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 750px;
+	}
+	&__i {
+		& a {
+			font-family: TTNorms;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 19px;
+			color: #181818;
+			transition: all 0.5s ease;
+		}
+		&:hover {
+			& a {
+				color: #000000;
+				font-weight: 500;
+				transition: all 0.5s ease;
+			}
+		}
+	}
+}
+
+.footer {
+	width: 100%;
+	padding: 40px 0;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		width: 100%;
+	}
+	&__nav {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		&-logo {
+			cursor: pointer;
+		}
+		&-l {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 660px;
+		}
+	}
+	&__info {
+		margin: 60px 0 0 0;
+		display: flex;
+		width: 100%;
+		align-items: flex-start;
+		justify-content: space-between;
+		padding: 0 140px 0 0;
+		&-c {
+			width: 460px;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+			& p {
+				font-family: TTNorms;
+				font-style: normal;
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 16px;
+				text-transform: uppercase;
+				color: rgba(62, 62, 62, 0.6);
+			}
+			& a {
+				margin: 33px 0 0 0;
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: 700;
+				font-size: 34px;
+				line-height: 46px;
+				color: #313131;
+			}
+			& h5 {
+				margin: 20px 0 0 0;
+				font-family: TTNorms;
+				font-style: normal;
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 26px;
+				color: #111111;
+			}
+		}
+		&-a {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+			width: 280px;
+			& p {
+				font-family: TTNorms;
+				font-style: normal;
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 16px;
+				text-transform: uppercase;
+				color: rgba(62, 62, 62, 0.6);
+			}
+			& address {
+				font-family: TTNorms;
+				font-style: normal;
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 26px;
+				color: #111111;
+				margin: 32px 0 0 0;
+			}
+		}
+	}
+	&__add {
+		margin: 70px 0 0 0;
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: space-between;
+		&-i {
+			font-family: TTNorms;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 22px;
+			color: #9dafbd;
+		}
+		&-c {
+			cursor: pointer;
+			font-family: TTNorms;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 22px;
+			color: #9dafbd;
+		}
+	}
+}
+
+//! --------------------------------------------------------------------
+//! Подключение файлов -------------------------------------------------
+//! --------------------------------------------------------------------
+
+@import "index/style";
+
+//! --------------------------------------------------------------------
+//! --------------------------------------------------------------------
+//! --------------------------------------------------------------------
