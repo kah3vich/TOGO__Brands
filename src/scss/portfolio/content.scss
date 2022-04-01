@@ -2,6 +2,8 @@
 	width: 100%;
 	position: relative;
 	padding: 100px 0 170px 0;
+	height: 35vh;
+	background: #fff;
 	&__bg {
 		position: absolute;
 		top: -110px;
@@ -51,6 +53,7 @@
 
 .portfolio-table {
 	width: 100%;
+	background: #fff;
 	padding: 70px 0 100px 0;
 	&__w {
 		display: flex;
@@ -123,9 +126,10 @@
 }
 
 .portfolio-list {
-	border-radius: 100px 100px 0px 0px;
+	border-radius: 100px;
 	width: 100%;
-	background: linear-gradient(180deg, #e0f8ff 0%, rgba(241, 241, 241, 0) 100%);
+	// background: linear-gradient(180deg, #e0f8ff 0%, rgba(241, 241, 241, 0) 100%);
+	background: #e0f8ff;
 	padding: 60px 0 100px 0;
 	position: relative;
 	&__w {

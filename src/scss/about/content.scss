@@ -2,6 +2,15 @@
 	width: 100%;
 	position: relative;
 	padding: 115px 0;
+	background: #fff;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	& .containers {
+		display: flex;
+		align-items: center;
+	}
 	&__bg {
 		position: absolute;
 		top: 0;
@@ -109,6 +118,7 @@
 .about-banner {
 	width: 100%;
 	position: relative;
+	background: #fff;
 	padding: 90px 0;
 	&__wrapper {
 		display: flex;
@@ -133,8 +143,9 @@
 .about-description {
 	width: 100%;
 	position: relative;
-	background: linear-gradient(180deg, #e0f8ff 0%, rgba(241, 241, 241, 0) 100%);
-	border-radius: 70px 70px 0 0;
+	// background: linear-gradient(180deg, #ffffff 0%, #e0f8ff 100%);
+	background: #e0f8ff;
+	border-radius: 70px;
 	padding: 90px 0;
 	&__w {
 		display: flex;

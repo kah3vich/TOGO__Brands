@@ -21,3 +21,20 @@
 		height: 80vh;
 	}
 }
+@media (max-height: 770px) {
+	.ind-main__video {
+		height: 455px;
+	}
+	.ind-main__info {
+		margin: 0;
+	}
+	.ind-main__info-btns {
+		margin: 40px 0 0 0;
+	}
+	.ind-main__info-d {
+		margin: 25px 0 0 0;
+	}
+	.ind-team__start p {
+		line-height: 50px;
+	}
+}
