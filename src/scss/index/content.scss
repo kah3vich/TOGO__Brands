@@ -4,7 +4,6 @@
 	padding: 40px 0;
 	// height: 100vh;
 	&__bg {
-		content: "";
 		position: absolute;
 		top: -110px;
 		left: 50%;
@@ -351,7 +350,7 @@
 	&__nav {
 		width: 100%;
 		display: grid;
-		grid-template-columns: 1fr 1fr 2fr 2fr;
+		grid-template-columns: 1fr 1.5fr 2fr 2fr;
 		justify-items: center;
 		&-i {
 			& p {
@@ -373,7 +372,7 @@
 		justify-content: flex-start;
 		&-w {
 			display: grid;
-			grid-template-columns: 1fr 1fr 2fr 2fr;
+			grid-template-columns: 1fr 1.5fr 2fr 2fr;
 			width: 100%;
 			background: #00a3ff;
 			&:first-child {
@@ -774,8 +773,6 @@
 
 .ind-news {
 	width: 100%;
-	background: #e2f8ff;
-	border-radius: 0px 0px 70px 70px;
 	padding: 70px 0;
 	margin: 20px 0;
 	& .containers {

@@ -1,0 +1,23 @@
+@media (min-height: 780px) {
+	.ind-main {
+		height: 90vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.ind-main__decor {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 1;
+		width: 100%;
+		max-width: 1440px;
+		height: 90vh;
+	}
+}
+@media (min-height: 850px) {
+	.ind-main__decor {
+		height: 80vh;
+	}
+}

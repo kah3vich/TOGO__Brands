@@ -123,6 +123,8 @@ h6 {
 .footer {
 	width: 100%;
 	padding: 40px 0;
+	background: linear-gradient(180deg, #e2f8ff 0%, #ffffff 100%);
+	border-radius: 70px 70px 0px 0px;
 	&__wrapper {
 		display: flex;
 		flex-direction: column;
@@ -243,6 +245,9 @@ h6 {
 //! --------------------------------------------------------------------
 
 @import "index/style";
+@import "about/style";
+@import "portfolio/style";
+@import "investor/style";
 
 //! --------------------------------------------------------------------
 //! --------------------------------------------------------------------
