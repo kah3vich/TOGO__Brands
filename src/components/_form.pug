@@ -1,0 +1,17 @@
+.form__b
+    .form__b-n
+        label.form__b-name(for='form__name').form__e
+            input(type="text" placeholder='ФИО' id='form__name')
+        label.form__b-phone(for='form__phone')
+            input(type="text" placeholder='Телефон' id='form__phone')
+    label.form__b-email(for='form__email')
+        input(type="text" placeholder='Email' id='form__email')
+    label.form__b-message(for='form__message')
+        textarea(placeholder='Сообщение' id='form__message')
+    button(type='submit').form__b-btn
+        p Отправить для диалога по инвестированию
+        img(src="./svg/investor/arrow__button.svg" alt="icons")
+    .form__b-check
+        input.form__b-check__checkbox__input(type="checkbox" id="form__check" checked)
+        label.form__b-check__checkbox__label(for='form__check') 
+            p Я даю своё согласие на обработку персональных данных и соглашаюсь с условиями и политикой конфиденциальности

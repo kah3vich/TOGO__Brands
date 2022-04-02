@@ -296,8 +296,7 @@
 .investor-team {
 	width: 100%;
 	position: relative;
-	background: linear-gradient(180deg, #ffffff 0%, #e0f8ff 100%);
-	border-radius: 0 0 100px 100px;
+	background: #fff;
 	padding: 60px 0 90px 0;
 	&__w {
 		display: flex;
@@ -386,6 +385,83 @@
 				color: #ffffff;
 				text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 			}
+		}
+	}
+}
+
+.investor-form {
+	width: 100%;
+	background: linear-gradient(180deg, #ffffff 0%, #e0f8ff 100%);
+	border-radius: 0 0 100px 100px;
+	padding: 100px 0;
+	&__w {
+		display: flex;
+		width: 100%;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	&__i {
+		margin: 80px 0 0 0;
+		display: flex;
+		width: 430px;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+	&__t {
+		font-family: TTNorms;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 34px;
+		line-height: 46px;
+		color: #303030;
+	}
+	&__e {
+		margin: 65px 0 0 0;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		& p {
+			font-family: TTNorms;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 30px;
+			color: #2e2e2e;
+		}
+		& a {
+			margin: 8px 0 0 0;
+			font-family: TTNorms;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 21px;
+			line-height: 30px;
+			color: #2e2e2e;
+		}
+	}
+	&__a {
+		margin: 50px 0 0 0;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		& p {
+			font-family: TTNorms;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 30px;
+			color: #2e2e2e;
+		}
+		& address {
+			font-family: TTNorms;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 21px;
+			line-height: 30px;
+			color: #2e2e2e;
+			margin: 8px 0 0 0;
 		}
 	}
 }

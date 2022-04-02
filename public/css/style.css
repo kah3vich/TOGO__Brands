@@ -794,6 +794,472 @@ h6 {
 	color : #9dafbd;
 }
 
+.form__e {
+	border : 2px solid red !important;
+}
+
+.form__b {
+	width : 645px;
+	padding : 73px 61px 55px 61px;
+	background : #00a3ff;
+	border-radius : 100px 0px 0px 0px;
+}
+
+.form__b-n {
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : justify;
+	-ms-flex-pack : justify;
+	justify-content : space-between;
+	width : 100%;
+}
+
+.form__b-name {
+	width : -webkit-max-content;
+	width :    -moz-max-content;
+	width :         max-content;
+	height : -webkit-max-content;
+	height :    -moz-max-content;
+	height :         max-content;
+	background : #00a3ff;
+	border : 2px solid rgba(255, 255, 255, 0.71);
+	border-radius : 100px;
+	padding : 15px 20px;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : start;
+	-ms-flex-pack : start;
+	justify-content : flex-start;
+}
+
+.form__b-name input {
+	width : 200px;
+	border : none;
+	background : transparent;
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+	border : none;
+	outline : none;
+}
+
+.form__b-name input:focus {
+	border : none;
+	outline : none;
+}
+
+.form__b-name input::-webkit-input-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-name input::-moz-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-name input:-ms-input-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-name input::-ms-input-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-name input::placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-phone {
+	width : -webkit-max-content;
+	width :    -moz-max-content;
+	width :         max-content;
+	height : -webkit-max-content;
+	height :    -moz-max-content;
+	height :         max-content;
+	background : #00a3ff;
+	border : 2px solid rgba(255, 255, 255, 0.71);
+	border-radius : 100px;
+	padding : 15px 20px;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : start;
+	-ms-flex-pack : start;
+	justify-content : flex-start;
+}
+
+.form__b-phone input {
+	width : 200px;
+	border : none;
+	background : transparent;
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+	border : none;
+	outline : none;
+}
+
+.form__b-phone input:focus {
+	border : none;
+	outline : none;
+}
+
+.form__b-phone input::-webkit-input-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-phone input::-moz-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-phone input:-ms-input-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-phone input::-ms-input-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-phone input::placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-email {
+	margin : 24px 0 0 0;
+	width : 100%;
+	border-radius : 100px;
+	background : #00a3ff;
+	border : 2px solid rgba(255, 255, 255, 0.71);
+	padding : 15px 20px;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : start;
+	-ms-flex-pack : start;
+	justify-content : flex-start;
+}
+
+.form__b-email input {
+	width : 100%;
+	border : none;
+	background : transparent;
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+	border : none;
+	outline : none;
+}
+
+.form__b-email input:focus {
+	border : none;
+	outline : none;
+}
+
+.form__b-email input::-webkit-input-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-email input::-moz-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-email input:-ms-input-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-email input::-ms-input-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-email input::placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-message {
+	margin : 24px 0 0 0;
+	width : 100%;
+	height : 170px;
+	border-radius : 20px;
+	background : #00a3ff;
+	border : 2px solid rgba(255, 255, 255, 0.71);
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : start;
+	-ms-flex-align : start;
+	align-items : flex-start;
+	-webkit-box-pack : start;
+	-ms-flex-pack : start;
+	justify-content : flex-start;
+	overflow : hidden;
+}
+
+.form__b-message textarea {
+	padding : 15px 20px;
+	width : 100%;
+	height : 160px;
+	resize : none;
+	border : none;
+	background : transparent;
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+	border : none;
+	outline : none;
+}
+
+.form__b-message textarea:focus {
+	border : none;
+	outline : none;
+}
+
+.form__b-message textarea::-webkit-input-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-message textarea::-moz-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-message textarea:-ms-input-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-message textarea::-ms-input-placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-message textarea::placeholder {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 17px;
+	line-height : 200%;
+	color : #ffffff;
+}
+
+.form__b-btn {
+	border : 3px solid #ffffff;
+	padding : 19px 50px;
+	width : 100%;
+	margin : 38px 0 0 0;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : justify;
+	-ms-flex-pack : justify;
+	justify-content : space-between;
+	border-radius : 50px;
+	cursor : pointer;
+	background : #00a3ff;
+}
+
+.form__b-btn p {
+	font-family : Circe;
+	font-style : normal;
+	font-weight : 700;
+	font-size : 18px;
+	line-height : 27px;
+	color : #ffffff;
+}
+
+.form__b-btn img {
+	margin : 0 0 0 auto;
+}
+
+.form__b-check {
+	position : relative;
+	margin : 33px 0 0 0;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : center;
+	-ms-flex-pack : center;
+	justify-content : center;
+}
+
+.form__b-check__checkbox__input {
+	-webkit-appearance : none;
+	   -moz-appearance : none;
+	        appearance : none;
+	position : absolute;
+}
+
+.form__b-check__checkbox__label {
+	padding-left : 40px;
+	font-family : Roboto;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 15px;
+	line-height : 24px;
+	color : #ffffff;
+	cursor : pointer;
+}
+
+.form__b-check__checkbox__label:before {
+	content : "";
+	display : block;
+	border : 2px solid #ffffff;
+	border-radius : 2px;
+	border-radius : 50%;
+	width : 20px;
+	height : 20px;
+	position : absolute;
+	top : 0;
+	left : 0;
+	z-index : 1;
+	-webkit-transition : background 0.1s linear, border 0.1s linear;
+	     -o-transition : background 0.1s linear, border 0.1s linear;
+	        transition : background 0.1s linear, border 0.1s linear;
+}
+
+.form__b-check__checkbox__label:after {
+	content : "";
+	display : block;
+	width : 11px;
+	height : 11px;
+	background : url("../svg/investor/check.svg") no-repeat;
+	background-size : 12px 12px;
+	opacity : 0;
+	position : absolute;
+	top : 4px;
+	left : 4px;
+	z-index : 2;
+	-webkit-transition : opacity 0.1s linear;
+	     -o-transition : opacity 0.1s linear;
+	        transition : opacity 0.1s linear;
+}
+
+.form__b-check__checkbox__input:checked + .form__b-check__checkbox__label:after {
+	opacity : 1;
+}
+
 .ind-main {
 	width : 100%;
 	position : relative;
@@ -3257,10 +3723,7 @@ h6 {
 .investor-team {
 	width : 100%;
 	position : relative;
-	background : -o-linear-gradient(top, #ffffff 0%, #e0f8ff 100%);
-	background : -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e0f8ff));
-	background :    linear-gradient(180deg, #ffffff 0%, #e0f8ff 100%);
-	border-radius : 0 0 100px 100px;
+	background : #ffffff;
 	padding : 60px 0 90px 0;
 }
 
@@ -3391,6 +3854,127 @@ h6 {
 	margin : 10px 0 0 0;
 	color : #ffffff;
 	text-shadow : 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.investor-form {
+	width : 100%;
+	background : -o-linear-gradient(top, #ffffff 0%, #e0f8ff 100%);
+	background : -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e0f8ff));
+	background :    linear-gradient(180deg, #ffffff 0%, #e0f8ff 100%);
+	border-radius : 0 0 100px 100px;
+	padding : 100px 0;
+}
+
+.investor-form__w {
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	width : 100%;
+	-webkit-box-align : start;
+	-ms-flex-align : start;
+	align-items : flex-start;
+	-webkit-box-pack : justify;
+	-ms-flex-pack : justify;
+	justify-content : space-between;
+}
+
+.investor-form__i {
+	margin : 80px 0 0 0;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	width : 430px;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	-ms-flex-direction : column;
+	    flex-direction : column;
+	-webkit-box-align : start;
+	-ms-flex-align : start;
+	align-items : flex-start;
+	-webkit-box-pack : start;
+	-ms-flex-pack : start;
+	justify-content : flex-start;
+}
+
+.investor-form__t {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 500;
+	font-size : 34px;
+	line-height : 46px;
+	color : #303030;
+}
+
+.investor-form__e {
+	margin : 65px 0 0 0;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	-ms-flex-direction : column;
+	    flex-direction : column;
+	-webkit-box-align : start;
+	-ms-flex-align : start;
+	align-items : flex-start;
+	-webkit-box-pack : start;
+	-ms-flex-pack : start;
+	justify-content : flex-start;
+}
+
+.investor-form__e p {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 18px;
+	line-height : 30px;
+	color : #2e2e2e;
+}
+
+.investor-form__e a {
+	margin : 8px 0 0 0;
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 700;
+	font-size : 21px;
+	line-height : 30px;
+	color : #2e2e2e;
+}
+
+.investor-form__a {
+	margin : 50px 0 0 0;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	-ms-flex-direction : column;
+	    flex-direction : column;
+	-webkit-box-align : start;
+	-ms-flex-align : start;
+	align-items : flex-start;
+	-webkit-box-pack : start;
+	-ms-flex-pack : start;
+	justify-content : flex-start;
+}
+
+.investor-form__a p {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 400;
+	font-size : 18px;
+	line-height : 30px;
+	color : #2e2e2e;
+}
+
+.investor-form__a address {
+	font-family : TTNorms;
+	font-style : normal;
+	font-weight : 700;
+	font-size : 21px;
+	line-height : 30px;
+	color : #2e2e2e;
+	margin : 8px 0 0 0;
 }
 
 @media (min-height: 780px) {

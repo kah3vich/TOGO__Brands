@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
     <link rel="shortcut icon" href="img/icons-1.ico" type="image/x-icon" id="rotateIcon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css?_v=20220401173659" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css?_v=20220402165032" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
   </head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220401173659" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.4/swiper-bundle.min.css?_v=20220401173659" integrity="sha512-V5B6OaBftIs7Kx8BBx7n2W42FpHP7MiXmDaKWTBdCsnStyS3gVYuA30kG6oABmh8uayFJDsfl2hCywak1eKE2w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.4/swiper-bundle.min.js?_v=20220401173659" integrity="sha512-ztZ7m9gYJmuwemu0TmAp9QDuhFhOYbbIoN6iIKMi5ay88l8U5tkt5OOlA/fP8DI/p/OphEY7QIbuoDQKpVvf7w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <link rel="stylesheet" href="css/style.min.css?_v=20220401173659">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220402165032" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.4/swiper-bundle.min.css?_v=20220402165032" integrity="sha512-V5B6OaBftIs7Kx8BBx7n2W42FpHP7MiXmDaKWTBdCsnStyS3gVYuA30kG6oABmh8uayFJDsfl2hCywak1eKE2w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.4/swiper-bundle.min.js?_v=20220402165032" integrity="sha512-ztZ7m9gYJmuwemu0TmAp9QDuhFhOYbbIoN6iIKMi5ay88l8U5tkt5OOlA/fP8DI/p/OphEY7QIbuoDQKpVvf7w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="css/style.min.css?_v=20220402165032">
 </html>
 <body></body>
 <header class="header"> 
@@ -319,14 +319,48 @@
             <p>HR-Business partne</p>
           </div>
         </li>
-        <li class="investor-team__l-i">
-          <div class="investor-team__l-p"> <img src="./img/investor/team/people__1.png" alt="img"></div>
-          <div class="investor-team__l-t"> 
-            <h5>Филипцова Дарья</h5>
-            <p>HR-Business partne</p>
-          </div>
-        </li>
       </ul>
+    </div>
+  </div>
+</div>
+<div class="investor-form">
+  <div class="containers">
+    <div class="investor-form__w">
+      <div class="investor-form__i"> 
+        <div class="investor-form__t">СТАТЬ ИНВЕСТОРОМ TOGOBRANDS</div>
+        <div class="investor-form__e">
+          <p>Почта для сотрудничества: </p><a href="mailto:togo@email.com">togo@email.com</a>
+        </div>
+        <div class="investor-form__a">
+          <p>Адрес штаб-квартиры Togo: </p>
+          <address>Москва, ул. Нижегородская, 29-33 стр. 5,<br> (БЦ Нижегородский)</address>
+        </div>
+      </div>
+      <div class="form__b">
+        <div class="form__b-n">
+          <label class="form__b-name form__e" for="form__name">
+            <input type="text" placeholder="ФИО" id="form__name">
+          </label>
+          <label class="form__b-phone" for="form__phone">
+            <input type="text" placeholder="Телефон" id="form__phone">
+          </label>
+        </div>
+        <label class="form__b-email" for="form__email">
+          <input type="text" placeholder="Email" id="form__email">
+        </label>
+        <label class="form__b-message" for="form__message">
+          <textarea placeholder="Сообщение" id="form__message"></textarea>
+        </label>
+        <button class="form__b-btn" type="submit">
+          <p>Отправить для диалога по инвестированию</p><img src="./svg/investor/arrow__button.svg" alt="icons">
+        </button>
+        <div class="form__b-check">
+          <input class="form__b-check__checkbox__input" type="checkbox" id="form__check" checked>
+          <label class="form__b-check__checkbox__label" for="form__check"> 
+            <p>Я даю своё согласие на обработку персональных данных и соглашаюсь с условиями и политикой конфиденциальности</p>
+          </label>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -375,4 +409,4 @@
     </div>
   </div>
 </footer>
-<script type="module" src="js/webpack.min.js?_v=20220401173659"></script>
+<script type="module" src="js/webpack.min.js?_v=20220402165032"></script>
