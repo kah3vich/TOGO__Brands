@@ -1,0 +1,36 @@
+@@include('components/_head.pug', {
+    "title": "Контакты",
+})
+
+@@include('components/_header.pug')
+
+.contact-main 
+    .containers
+        .contact-main__w 
+            .contact-main__t Контакты
+    .contact-main__c
+        .contact-main__m 
+            iframe(src="https://yandex.ru/map-widget/v1/?um=constructor%3A79c6f8c0f60d98789ee97c5062181cb67869f74c3c636a1d848ffdfa2b430d31&amp;source=constructor" width="600" height="450" frameborder="0")
+    .containers
+        .contact-main__w 
+            .contact-main__b
+                .contact-main__i 
+                    .contact-main__e 
+                        p Почта для сотрудничества: 
+                        a(href="#") togo@email.com
+                    .contact-main__a 
+                        p Адрес штаб-квартиры Togo: 
+                        address Москва, ул. Нижегородская, 29-33 стр. 5, 
+                            br
+                            | (БЦ Нижегородский)
+                    .contact-main__btns
+                        a(href="#").contact-main__btn
+                .contact-main__f 
+                    include components/_form.pug
+
+
+
+
+@@include('components/_footer.pug')
+
+@@include('components/_script.pug')

@@ -11,3 +11,9 @@
 # Portfolio: [click me](https://kah3vich.github.io/TOGO__Brands/public/portfolio.html)
 
 # Investor: [click me](https://kah3vich.github.io/TOGO__Brands/public/investor.html)
+
+# Portfolios: [click me](https://kah3vich.github.io/TOGO__Brands/public/portfolios.html)
+
+# News: [click me](https://kah3vich.github.io/TOGO__Brands/public/news.html)
+
+# Contact: [click me](https://kah3vich.github.io/TOGO__Brands/public/contact.html)
