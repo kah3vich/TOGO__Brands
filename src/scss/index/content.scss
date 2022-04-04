@@ -544,7 +544,7 @@
 .ind-team {
 	width: 100%;
 	position: relative;
-	padding: 70px 0 30px 0;
+	padding: 70px 0;
 	background: #fff;
 	&__wrapper {
 		display: flex;
@@ -777,7 +777,7 @@
 .ind-news {
 	width: 100%;
 	padding: 70px 0;
-	background: linear-gradient(180deg, #ffffff 0%, #e2f8ff 100%);
+	background: #e2f8ff;
 	border-radius: 0px 0px 70px 70px;
 	& .containers {
 		display: flex;
