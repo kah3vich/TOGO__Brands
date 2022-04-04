@@ -1,6 +1,7 @@
 .partner-main {
 	width: 100%;
 	position: relative;
+	z-index: 2;
 	padding: 110px 0 115px 0;
 	background: #fff;
 	height: 90vh;
@@ -88,6 +89,8 @@
 .partner-box {
 	width: 100%;
 	padding: 230px 0 190px 0;
+	position: relative;
+	z-index: 2;
 	background: #fff;
 	&__w {
 		width: 100%;
@@ -192,6 +195,8 @@
 	padding: 60px 0 70px 0;
 	background: linear-gradient(180deg, #e2f8ff 0%, #ffffff 100%);
 	border-radius: 70px 70px 0px 0px;
+	position: relative;
+	z-index: 2;
 	&__w {
 		display: flex;
 		flex-direction: column;
@@ -288,6 +293,8 @@
 	width: 100%;
 	background: #fff;
 	padding: 165px 0 75px 0;
+	position: relative;
+	z-index: 2;
 	&__w {
 		width: 100%;
 		display: flex;
@@ -359,6 +366,7 @@
 .partner-team {
 	width: 100%;
 	position: relative;
+	z-index: 2;
 	background: #fff;
 	padding: 120px 0;
 	&__w {
@@ -456,6 +464,7 @@
 .partner-grafic {
 	width: 100%;
 	position: relative;
+	z-index: 2;
 	background: #fff;
 	padding: 120px 0 140px 0;
 	&__w {
@@ -495,6 +504,8 @@
 	border-radius: 0px 0px 70px 70px;
 	width: 100%;
 	padding: 90px 0 115px 0;
+	position: relative;
+	z-index: 2;
 	&__w {
 		width: 100%;
 		padding: 60px;

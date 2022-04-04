@@ -1,6 +1,7 @@
 .about-main {
 	width: 100%;
 	position: relative;
+	z-index: 2;
 	padding: 115px 0;
 	background: #fff;
 	height: 90vh;
@@ -118,6 +119,7 @@
 .about-banner {
 	width: 100%;
 	position: relative;
+	z-index: 2;
 	background: #fff;
 	padding: 90px 0;
 	&__wrapper {
@@ -143,6 +145,7 @@
 .about-description {
 	width: 100%;
 	position: relative;
+	z-index: 2;
 	// background: linear-gradient(180deg, #ffffff 0%, #e0f8ff 100%);
 	background: #e0f8ff;
 	border-radius: 70px;

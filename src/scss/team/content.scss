@@ -1,6 +1,7 @@
 .team-main {
 	width: 100%;
 	position: relative;
+	z-index: 2;
 	padding: 110px 0 115px 0;
 	background: #fff;
 	height: 90vh;
@@ -63,6 +64,7 @@
 .team-team {
 	width: 100%;
 	position: relative;
+	z-index: 2;
 	background: #fff;
 	padding: 140px 0 90px 0;
 	&__w {
@@ -189,6 +191,8 @@
 
 .team-description {
 	width: 100%;
+	position: relative;
+	z-index: 2;
 	background: linear-gradient(180deg, #e2f8ff 0%, #ffffff 100%);
 	border-radius: 70px 70px 0px 0px;
 	padding: 155px 0;
@@ -285,6 +289,8 @@
 
 .team-form {
 	width: 100%;
+	position: relative;
+	z-index: 2;
 	background: linear-gradient(180deg, #ffffff 0%, #e0f8ff 130%);
 	border-radius: 0 0 100px 100px;
 	padding: 40px 0 100px 0;

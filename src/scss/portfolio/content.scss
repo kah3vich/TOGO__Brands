@@ -1,6 +1,7 @@
 .portfolio-main {
 	width: 100%;
 	position: relative;
+	z-index: 2;
 	padding: 100px 0 170px 0;
 	height: 35vh;
 	background: #fff;
@@ -55,6 +56,8 @@
 	width: 100%;
 	background: #fff;
 	padding: 70px 0 100px 0;
+	position: relative;
+	z-index: 2;
 	&__w {
 		display: flex;
 		flex-direction: column;
@@ -132,6 +135,7 @@
 	background: #e0f8ff;
 	padding: 60px 0 100px 0;
 	position: relative;
+	z-index: 2;
 	&__w {
 		display: flex;
 		flex-direction: column;
@@ -229,10 +233,11 @@
 			border-radius: 100px;
 			display: flex;
 			align-items: center;
-			justify-content: center;
-			padding: 25px 50px 25px 20px;
+			justify-content: space-between;
+			padding: 25px 40px 25px 20px;
 			position: relative;
 			margin: 0 0 0 50px;
+			width: 465px;
 			&:first-child {
 				margin: 0 0 0 0;
 			}
@@ -259,8 +264,8 @@
 			}
 		}
 		&-t {
-			margin: 0 0 0 50px;
 			display: flex;
+			width: 300px;
 			flex-direction: column;
 			align-items: flex-start;
 			justify-content: center;
