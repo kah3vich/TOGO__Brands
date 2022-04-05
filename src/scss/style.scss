@@ -84,6 +84,15 @@ h6 {
 	background: transparent;
 	position: relative;
 	z-index: 10;
+	&__m {
+		width: 32px;
+		height: 32px;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		display: none;
+	}
 	&__block {
 		width: 100%;
 		display: flex;
@@ -562,6 +571,8 @@ h6 {
 @import "contact/style";
 @import "team/style";
 @import "partner/style";
+
+@import "media";
 
 //! --------------------------------------------------------------------
 //! --------------------------------------------------------------------
