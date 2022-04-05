@@ -19,3 +19,5 @@
 # Contact: [click me](https://kah3vich.github.io/TOGO__Brands/public/contact.html)
 
 # Partner: [click me](https://kah3vich.github.io/TOGO__Brands/public/partner.html)
+
+# Team: [click me](https://kah3vich.github.io/TOGO__Brands/public/team.html)

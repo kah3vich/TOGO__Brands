@@ -72,6 +72,8 @@
 		justify-content: center;
 		background: #ffffff;
 		border-radius: 50px;
+		border: 2px solid #ffffff;
+		transition: all 0.5s ease;
 		& p {
 			font-family: Circe;
 			font-style: normal;
@@ -79,9 +81,27 @@
 			font-size: 18px;
 			line-height: 27px;
 			color: #1b1b1b;
+			transition: all 0.5s ease;
 		}
-		& img {
+		& svg {
 			margin: 0 0 0 20px;
+			& path {
+				transition: all 0.5s ease;
+			}
+		}
+		&:hover {
+			transition: all 0.5s ease;
+			background: transparent;
+			& p {
+				color: #fff;
+				transition: all 0.5s ease;
+			}
+			& svg {
+				& path {
+					stroke: #fff;
+					transition: all 0.5s ease;
+				}
+			}
 		}
 	}
 }
@@ -521,7 +541,7 @@
 		width: 100%;
 		padding: 19px 50px;
 		background: #ffffff;
-		border: 3px solid #ffffff;
+		border: 2px solid #ffffff;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -529,6 +549,7 @@
 		position: relative;
 		cursor: pointer;
 		margin: 45px auto 0 auto;
+		transition: all 0.5s ease;
 		& p {
 			font-family: Circe;
 			font-style: normal;
@@ -537,12 +558,30 @@
 			line-height: 27px;
 			text-align: center;
 			color: #383838;
+			transition: all 0.5s ease;
 		}
-		& img {
+		& svg {
 			position: absolute;
 			top: 50%;
 			right: 50px;
 			transform: translate(0%, -50%);
+			& path {
+				transition: all 0.5s ease;
+			}
+		}
+		&:hover {
+			transition: all 0.5s ease;
+			background: #00a3ff;
+			& p {
+				color: #fff;
+				transition: all 0.5s ease;
+			}
+			& svg {
+				& path {
+					stroke: #fff;
+					transition: all 0.5s ease;
+				}
+			}
 		}
 	}
 	&__b {
@@ -797,6 +836,7 @@
 		align-items: center;
 		justify-content: center;
 		cursor: pointer;
+		transition: all 0.5s ease;
 		& p {
 			font-family: Circe;
 			font-style: normal;
@@ -805,12 +845,30 @@
 			line-height: 27px;
 			text-align: center;
 			color: #ffffff;
+			transition: all 0.5s ease;
 		}
-		& img {
+		& svg {
 			position: absolute;
 			top: 50%;
 			right: 50px;
 			transform: translate(0%, -50%);
+			& path {
+				transition: all 0.5s ease;
+			}
+		}
+		&:hover {
+			transition: all 0.5s ease;
+			background: #fff;
+			& p {
+				color: #00a3ff;
+				transition: all 0.5s ease;
+			}
+			& svg {
+				& path {
+					fill: #00a3ff;
+					transition: all 0.5s ease;
+				}
+			}
 		}
 	}
 	&__file {
@@ -824,6 +882,7 @@
 		align-items: center;
 		justify-content: center;
 		cursor: pointer;
+		transition: all 0.5s ease;
 		& input[type="file"] {
 			position: absolute;
 			width: 1px;
@@ -831,19 +890,37 @@
 			opacity: 0;
 		}
 		& p {
-			font-family: "Circe";
+			font-family: Circe;
 			font-style: normal;
 			font-weight: 700;
 			font-size: 18px;
 			line-height: 27px;
 			text-align: center;
 			color: #ffffff;
+			transition: all 0.5s ease;
 		}
-		& img {
+		& svg {
 			position: absolute;
 			top: 50%;
 			right: 50px;
 			transform: translate(0%, -50%);
+			& path {
+				transition: all 0.5s ease;
+			}
+		}
+		&:hover {
+			transition: all 0.5s ease;
+			background: #fff;
+			& p {
+				color: #00a3ff;
+				transition: all 0.5s ease;
+			}
+			& svg {
+				& path {
+					stroke: #00a3ff;
+					transition: all 0.5s ease;
+				}
+			}
 		}
 	}
 	&__error {

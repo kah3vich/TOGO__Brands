@@ -10,7 +10,10 @@
         textarea(placeholder='Сообщение' id='form__message')
     button(type='submit').form__b-btn
         p Отправить для диалога по инвестированию
-        img(src="./svg/investor/arrow__button.svg" alt="icons")
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 11L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M1 1H11V11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
     .form__b-check
         input.form__b-check__checkbox__input(type="checkbox" id="form__check" checked)
         label.form__b-check__checkbox__label(for='form__check') 

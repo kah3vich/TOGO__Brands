@@ -74,22 +74,43 @@
 	}
 	&__p {
 		background: #ffffff;
+		border: 2px solid #ffffff;
 		border-radius: 50px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		padding: 19px 35px;
+		transition: all 0.5s ease;
 		cursor: pointer;
+		&:hover {
+			transition: all 0.5s ease;
+			background: transparent;
+			& p {
+				color: #fff;
+				transition: all 0.5s ease;
+			}
+			& svg {
+				& path {
+					stroke: #fff;
+					transition: all 0.5s ease;
+				}
+			}
+		}
 		& p {
 			font-family: Circe;
+			transition: all 0.5s ease;
 			font-style: normal;
 			font-weight: 700;
 			font-size: 18px;
 			line-height: 27px;
 			color: #1b1b1b;
+			transition: all 0.5s ease;
 		}
-		& img {
+		& svg {
 			margin: 0 0 0 22px;
+			& path {
+				transition: all 0.5s ease;
+			}
 		}
 	}
 	&__i {
@@ -102,16 +123,35 @@
 		padding: 19px 35px;
 		cursor: pointer;
 		margin: 0 0 0 35px;
+		transition: all 0.5s ease;
+		&:hover {
+			transition: all 0.5s ease;
+			background: #fff;
+			& p {
+				color: #0063be;
+				transition: all 0.5s ease;
+			}
+			& svg {
+				& path {
+					stroke: #0063be;
+					transition: all 0.5s ease;
+				}
+			}
+		}
 		& p {
 			font-family: Circe;
 			font-style: normal;
 			font-weight: 700;
+			transition: all 0.5s ease;
 			font-size: 18px;
 			line-height: 27px;
 			color: #ffffff;
 		}
-		& img {
+		& svg {
 			margin: 0 0 0 22px;
+			& path {
+				transition: all 0.5s ease;
+			}
 		}
 	}
 }
@@ -252,6 +292,7 @@
 		}
 	}
 	&__b {
+		border: 2px solid #0063be;
 		background: #0063be;
 		border-radius: 50px;
 		margin: 150px auto 0 auto;
@@ -261,6 +302,7 @@
 		justify-content: center;
 		cursor: pointer;
 		min-width: 277px;
+		transition: all 0.5s ease;
 		& p {
 			margin: 0 0 0 auto;
 			font-family: Circe;
@@ -270,9 +312,27 @@
 			line-height: 27px;
 			text-align: center;
 			color: #ffffff;
+			transition: all 0.5s ease;
 		}
-		& img {
+		& svg {
 			margin: 0 0 0 50px;
+			& path {
+				transition: all 0.5s ease;
+			}
+		}
+		&:hover {
+			transition: all 0.5s ease;
+			background: #fff;
+			& p {
+				color: #0063be;
+				transition: all 0.5s ease;
+			}
+			& svg {
+				& path {
+					stroke: #0063be;
+					transition: all 0.5s ease;
+				}
+			}
 		}
 	}
 }

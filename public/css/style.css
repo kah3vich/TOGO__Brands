@@ -1170,7 +1170,7 @@ h6 {
 }
 
 .form__b-btn {
-	border : 3px solid #ffffff;
+	border : 2px solid #ffffff;
 	padding : 19px 50px;
 	width : 100%;
 	margin : 38px 0 0 0;
@@ -1186,6 +1186,9 @@ h6 {
 	border-radius : 50px;
 	cursor : pointer;
 	background : #00a3ff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .form__b-btn p {
@@ -1195,10 +1198,40 @@ h6 {
 	font-size : 18px;
 	line-height : 27px;
 	color : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
-.form__b-btn img {
+.form__b-btn svg {
 	margin : 0 0 0 auto;
+}
+
+.form__b-btn svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.form__b-btn:hover {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	background : #ffffff;
+}
+
+.form__b-btn:hover p {
+	color : #00a3ff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.form__b-btn:hover svg path {
+	stroke : #00a3ff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .form__b-check {
@@ -1381,6 +1414,10 @@ h6 {
 	width : -webkit-max-content;
 	width :    -moz-max-content;
 	width :         max-content;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	border : 3px solid #3ea3f2;
 }
 
 .ind-main__info-p p {
@@ -1390,10 +1427,34 @@ h6 {
 	font-size : 18px;
 	line-height : 27px;
 	color : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
-.ind-main__info-p img {
+.ind-main__info-p svg {
 	margin : 0 0 0 20px;
+}
+
+.ind-main__info-p:hover {
+	background : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.ind-main__info-p:hover svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	stroke : #3ea3f2;
+}
+
+.ind-main__info-p:hover p {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	color : #000000;
 }
 
 .ind-main__info-i {
@@ -1420,6 +1481,30 @@ h6 {
 	-webkit-transform : translate(0%, -50%);
 	    -ms-transform : translate(0%, -50%);
 	        transform : translate(0%, -50%);
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.ind-main__info-i:hover {
+	background : #3ea3f2;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.ind-main__info-i:hover svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	stroke : #ffffff;
+}
+
+.ind-main__info-i:hover p {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	color : #ffffff;
 }
 
 .ind-main__info-i p {
@@ -1429,10 +1514,19 @@ h6 {
 	font-size : 18px;
 	line-height : 27px;
 	color : #0a0a0a;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
-.ind-main__info-i img {
+.ind-main__info-i svg {
 	margin : 0 0 0 20px;
+}
+
+.ind-main__info-i svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .ind-main__video {
@@ -1607,6 +1701,9 @@ h6 {
 	-ms-flex-pack : center;
 	justify-content : center;
 	margin : 50px 0 0 0;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .ind-description__start-b p {
@@ -1616,10 +1713,40 @@ h6 {
 	font-size : 18px;
 	line-height : 27px;
 	color : #0a0a0a;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
-.ind-description__start-b img {
+.ind-description__start-b svg {
 	margin : 0 0 0 30px;
+}
+
+.ind-description__start-b svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.ind-description__start-b:hover {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	background : #3ea3f2;
+}
+
+.ind-description__start-b:hover p {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	color : #ffffff;
+}
+
+.ind-description__start-b:hover svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	stroke : #ffffff;
 }
 
 .ind-description__info {
@@ -2595,6 +2722,7 @@ h6 {
 
 .about-main__p {
 	background : #ffffff;
+	border : 2px solid #ffffff;
 	border-radius : 50px;
 	display : -webkit-box;
 	display : -ms-flexbox;
@@ -2606,20 +2734,54 @@ h6 {
 	-ms-flex-pack : center;
 	justify-content : center;
 	padding : 19px 35px;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 	cursor : pointer;
+}
+
+.about-main__p:hover {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	background : transparent;
+}
+
+.about-main__p:hover p {
+	color : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.about-main__p:hover svg path {
+	stroke : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .about-main__p p {
 	font-family : Circe;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 	font-style : normal;
 	font-weight : 700;
 	font-size : 18px;
 	line-height : 27px;
 	color : #1b1b1b;
+	        transition : all 0.5s ease;
 }
 
-.about-main__p img {
+.about-main__p svg {
 	margin : 0 0 0 22px;
+}
+
+.about-main__p svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .about-main__i {
@@ -2638,19 +2800,52 @@ h6 {
 	padding : 19px 35px;
 	cursor : pointer;
 	margin : 0 0 0 35px;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.about-main__i:hover {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	background : #ffffff;
+}
+
+.about-main__i:hover p {
+	color : #0063be;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.about-main__i:hover svg path {
+	stroke : #0063be;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .about-main__i p {
 	font-family : Circe;
 	font-style : normal;
 	font-weight : 700;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 	font-size : 18px;
 	line-height : 27px;
 	color : #ffffff;
 }
 
-.about-main__i img {
+.about-main__i svg {
 	margin : 0 0 0 22px;
+}
+
+.about-main__i svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .about-banner {
@@ -2850,6 +3045,7 @@ h6 {
 }
 
 .about-description__b {
+	border : 2px solid #0063be;
 	background : #0063be;
 	border-radius : 50px;
 	margin : 150px auto 0 auto;
@@ -2865,6 +3061,9 @@ h6 {
 	justify-content : center;
 	cursor : pointer;
 	min-width : 277px;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .about-description__b p {
@@ -2876,10 +3075,40 @@ h6 {
 	line-height : 27px;
 	text-align : center;
 	color : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
-.about-description__b img {
+.about-description__b svg {
 	margin : 0 0 0 50px;
+}
+
+.about-description__b svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.about-description__b:hover {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	background : #ffffff;
+}
+
+.about-description__b:hover p {
+	color : #0063be;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.about-description__b:hover svg path {
+	stroke : #0063be;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .portfolio-main {
@@ -3418,6 +3647,7 @@ h6 {
 .investor-main__l {
 	margin : 38px 0 0 0;
 	background : #ffffff;
+	border : 2px solid #ffffff;
 	border-radius : 50px;
 	padding : 19px 30px;
 	display : -webkit-box;
@@ -3432,6 +3662,9 @@ h6 {
 	width : -webkit-max-content;
 	width :    -moz-max-content;
 	width :         max-content;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 	cursor : pointer;
 }
 
@@ -3442,10 +3675,40 @@ h6 {
 	font-size : 18px;
 	line-height : 27px;
 	color : #1b1b1b;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
-.investor-main__l img {
+.investor-main__l svg {
 	margin : 0 0 0 20px;
+}
+
+.investor-main__l svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.investor-main__l:hover {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	background : transparent;
+}
+
+.investor-main__l:hover p {
+	color : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.investor-main__l:hover svg path {
+	stroke : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .investor-main__text {
@@ -4112,6 +4375,7 @@ h6 {
 
 .portfolios-main__btn {
 	background : #ffffff;
+	border : 2px solid #ffffff;
 	border-radius : 50px;
 	margin : 50px 0 0 0;
 	padding : 19px 40px;
@@ -4127,6 +4391,9 @@ h6 {
 	width : -webkit-max-content;
 	width :    -moz-max-content;
 	width :         max-content;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .portfolios-main__btn p {
@@ -4136,10 +4403,40 @@ h6 {
 	font-size : 18px;
 	line-height : 27px;
 	color : #1b1b1b;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
-.portfolios-main__btn img {
+.portfolios-main__btn svg {
 	margin : 0 0 0 30px;
+}
+
+.portfolios-main__btn svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.portfolios-main__btn:hover {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	background : transparent;
+}
+
+.portfolios-main__btn:hover p {
+	color : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.portfolios-main__btn:hover svg path {
+	stroke : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .portfolios-price {
@@ -5277,6 +5574,10 @@ h6 {
 	background : #3ea3f2;
 	border-radius : 50px;
 	padding : 19px 35px;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	border : 2px solid #3ea3f2;
 }
 
 .team-team__b p {
@@ -5286,10 +5587,40 @@ h6 {
 	font-size : 18px;
 	line-height : 27px;
 	color : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
-.team-team__b img {
+.team-team__b svg {
 	margin : 0 0 0 20px;
+}
+
+.team-team__b svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.team-team__b:hover {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	background : #ffffff;
+}
+
+.team-team__b:hover p {
+	color : #00a3ff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.team-team__b:hover svg path {
+	stroke : #00a3ff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .team-description {
@@ -5610,6 +5941,10 @@ h6 {
 	justify-content : center;
 	background : #ffffff;
 	border-radius : 50px;
+	border : 2px solid #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .partner-main__b p {
@@ -5619,10 +5954,40 @@ h6 {
 	font-size : 18px;
 	line-height : 27px;
 	color : #1b1b1b;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
-.partner-main__b img {
+.partner-main__b svg {
 	margin : 0 0 0 20px;
+}
+
+.partner-main__b svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.partner-main__b:hover {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	background : transparent;
+}
+
+.partner-main__b:hover p {
+	color : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.partner-main__b:hover svg path {
+	stroke : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .partner-box {
@@ -6259,7 +6624,7 @@ h6 {
 	width : 100%;
 	padding : 19px 50px;
 	background : #ffffff;
-	border : 3px solid #ffffff;
+	border : 2px solid #ffffff;
 	display : -webkit-box;
 	display : -ms-flexbox;
 	display : flex;
@@ -6273,6 +6638,9 @@ h6 {
 	position : relative;
 	cursor : pointer;
 	margin : 45px auto 0 auto;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .partner-form__btn p {
@@ -6283,15 +6651,45 @@ h6 {
 	line-height : 27px;
 	text-align : center;
 	color : #383838;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
-.partner-form__btn img {
+.partner-form__btn svg {
 	position : absolute;
 	top : 50%;
 	right : 50px;
 	-webkit-transform : translate(0%, -50%);
 	    -ms-transform : translate(0%, -50%);
 	        transform : translate(0%, -50%);
+}
+
+.partner-form__btn svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.partner-form__btn:hover {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	background : #00a3ff;
+}
+
+.partner-form__btn:hover p {
+	color : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.partner-form__btn:hover svg path {
+	stroke : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .partner-form__b {
@@ -6908,6 +7306,9 @@ h6 {
 	-ms-flex-pack : center;
 	justify-content : center;
 	cursor : pointer;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .partner-form__info p {
@@ -6918,15 +7319,45 @@ h6 {
 	line-height : 27px;
 	text-align : center;
 	color : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
-.partner-form__info img {
+.partner-form__info svg {
 	position : absolute;
 	top : 50%;
 	right : 50px;
 	-webkit-transform : translate(0%, -50%);
 	    -ms-transform : translate(0%, -50%);
 	        transform : translate(0%, -50%);
+}
+
+.partner-form__info svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.partner-form__info:hover {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	background : #ffffff;
+}
+
+.partner-form__info:hover p {
+	color : #00a3ff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.partner-form__info:hover svg path {
+	fill : #00a3ff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .partner-form__file {
@@ -6946,6 +7377,9 @@ h6 {
 	-ms-flex-pack : center;
 	justify-content : center;
 	cursor : pointer;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .partner-form__file input[type=file] {
@@ -6956,22 +7390,52 @@ h6 {
 }
 
 .partner-form__file p {
-	font-family : "Circe";
+	font-family : Circe;
 	font-style : normal;
 	font-weight : 700;
 	font-size : 18px;
 	line-height : 27px;
 	text-align : center;
 	color : #ffffff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
-.partner-form__file img {
+.partner-form__file svg {
 	position : absolute;
 	top : 50%;
 	right : 50px;
 	-webkit-transform : translate(0%, -50%);
 	    -ms-transform : translate(0%, -50%);
 	        transform : translate(0%, -50%);
+}
+
+.partner-form__file svg path {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.partner-form__file:hover {
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+	background : #ffffff;
+}
+
+.partner-form__file:hover p {
+	color : #00a3ff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.partner-form__file:hover svg path {
+	stroke : #00a3ff;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .partner-form__error {

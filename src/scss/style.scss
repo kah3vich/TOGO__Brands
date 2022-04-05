@@ -446,7 +446,7 @@ h6 {
 			}
 		}
 		&-btn {
-			border: 3px solid #ffffff;
+			border: 2px solid #ffffff;
 			padding: 19px 50px;
 			width: 100%;
 			margin: 38px 0 0 0;
@@ -456,6 +456,7 @@ h6 {
 			border-radius: 50px;
 			cursor: pointer;
 			background: #00a3ff;
+			transition: all 0.5s ease;
 			& p {
 				font-family: Circe;
 				font-style: normal;
@@ -463,9 +464,27 @@ h6 {
 				font-size: 18px;
 				line-height: 27px;
 				color: #ffffff;
+				transition: all 0.5s ease;
 			}
-			& img {
+			& svg {
 				margin: 0 0 0 auto;
+				& path {
+					transition: all 0.5s ease;
+				}
+			}
+			&:hover {
+				transition: all 0.5s ease;
+				background: #ffffff;
+				& p {
+					color: #00a3ff;
+					transition: all 0.5s ease;
+				}
+				& svg {
+					& path {
+						stroke: #00a3ff;
+						transition: all 0.5s ease;
+					}
+				}
 			}
 		}
 	}

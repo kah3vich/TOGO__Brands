@@ -74,6 +74,8 @@
 			align-items: center;
 			justify-content: center;
 			width: max-content;
+			transition: all 0.5s ease;
+			border: 3px solid #3ea3f2;
 			& p {
 				font-family: Circe;
 				font-style: normal;
@@ -81,9 +83,24 @@
 				font-size: 18px;
 				line-height: 27px;
 				color: #ffffff;
+				transition: all 0.5s ease;
 			}
-			& img {
+			& svg {
 				margin: 0 0 0 20px;
+			}
+			&:hover {
+				background: #ffffff;
+				transition: all 0.5s ease;
+				& svg {
+					& path {
+						transition: all 0.5s ease;
+						stroke: #3ea3f2;
+					}
+				}
+				& p {
+					transition: all 0.5s ease;
+					color: #000;
+				}
 			}
 		}
 		&-i {
@@ -100,6 +117,21 @@
 			top: 50%;
 			right: -235px;
 			transform: translate(0%, -50%);
+			transition: all 0.5s ease;
+			&:hover {
+				background: #3ea3f2;
+				transition: all 0.5s ease;
+				& svg {
+					& path {
+						transition: all 0.5s ease;
+						stroke: #fff;
+					}
+				}
+				& p {
+					transition: all 0.5s ease;
+					color: #fff;
+				}
+			}
 			& p {
 				font-family: Circe;
 				font-style: normal;
@@ -107,9 +139,13 @@
 				font-size: 18px;
 				line-height: 27px;
 				color: #0a0a0a;
+				transition: all 0.5s ease;
 			}
-			& img {
+			& svg {
 				margin: 0 0 0 20px;
+				& path {
+					transition: all 0.5s ease;
+				}
 			}
 		}
 	}
@@ -242,6 +278,7 @@
 			align-items: center;
 			justify-content: center;
 			margin: 50px 0 0 0;
+			transition: all 0.5s ease;
 			& p {
 				font-family: Circe;
 				font-style: normal;
@@ -249,9 +286,27 @@
 				font-size: 18px;
 				line-height: 27px;
 				color: #0a0a0a;
+				transition: all 0.5s ease;
 			}
-			& img {
+			& svg {
 				margin: 0 0 0 30px;
+				& path {
+					transition: all 0.5s ease;
+				}
+			}
+			&:hover {
+				transition: all 0.5s ease;
+				background: #3ea3f2;
+				& p {
+					transition: all 0.5s ease;
+					color: #fff;
+				}
+				& svg {
+					& path {
+						transition: all 0.5s ease;
+						stroke: #fff;
+					}
+				}
 			}
 		}
 	}

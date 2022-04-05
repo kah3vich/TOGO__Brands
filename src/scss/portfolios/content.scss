@@ -78,6 +78,7 @@
 	}
 	&__btn {
 		background: #ffffff;
+		border: 2px solid #fff;
 		border-radius: 50px;
 		margin: 50px 0 0 0;
 		padding: 19px 40px;
@@ -85,6 +86,7 @@
 		align-items: center;
 		justify-content: center;
 		width: max-content;
+		transition: all 0.5s ease;
 		& p {
 			font-family: Circe;
 			font-style: normal;
@@ -92,9 +94,27 @@
 			font-size: 18px;
 			line-height: 27px;
 			color: #1b1b1b;
+			transition: all 0.5s ease;
 		}
-		& img {
+		& svg {
 			margin: 0 0 0 30px;
+			& path {
+				transition: all 0.5s ease;
+			}
+		}
+		&:hover {
+			transition: all 0.5s ease;
+			background: transparent;
+			& p {
+				color: #fff;
+				transition: all 0.5s ease;
+			}
+			& svg {
+				& path {
+					stroke: #fff;
+					transition: all 0.5s ease;
+				}
+			}
 		}
 	}
 }
