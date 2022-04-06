@@ -4,7 +4,7 @@
 
 @@include('components/_header.pug')
 
-.team-main 
+section.team-main 
     .team-main__bg
         img(src="./img/team/main/banner.png" alt="img")
     .containers
@@ -20,7 +20,7 @@
                 br 
                 | с большой скоростью и приобретает высокое качество
 
-.team-team 
+section.team-team 
     .containers
         .team-team__w 
             .team-team__t 
@@ -107,8 +107,7 @@
                     <path d="M1 1H11V11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
 
-
-.team-description
+section.team-description
     .containers
         .team-description__w
             .team-description__t 
@@ -132,7 +131,7 @@
                         br
                         | Мы знаем, что основным залогом успеха являются люди, которые продолжают строить самый успешный успешный монобренд в электронной коммерции с великими брендами из России.
 
-.team-form
+section.team-form
     .containers
         .team-form__w
             .team-form__i 
@@ -148,8 +147,8 @@
                     include components/_form.pug
 
 
-
-
 @@include('components/_footer.pug')
+
+@@include('components/_menu.pug')
 
 @@include('components/_script.pug')

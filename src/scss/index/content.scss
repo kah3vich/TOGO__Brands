@@ -400,6 +400,10 @@
 		line-height: 58px;
 		color: #313131;
 	}
+	&__slider {
+		width: 100%;
+		display: none;
+	}
 	&__w {
 		overflow-x: auto;
 		overflow-y: hidden;
@@ -655,6 +659,10 @@
 				left: 0;
 			}
 		}
+	}
+	&__slider {
+		width: 100%;
+		display: none;
 	}
 	&__start {
 		display: flex;

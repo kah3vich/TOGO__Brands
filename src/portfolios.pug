@@ -4,7 +4,7 @@
 
 @@include('components/_header.pug')
 
-.portfolios-main 
+section.portfolios-main 
     .portfolios-main__bg
     .containers
         .portfolios-main__w 
@@ -21,7 +21,7 @@
             .portfolios-main__b 
                 img(src="./svg/portfolios/box.svg" alt="icons")
 
-.portfolios-price 
+section.portfolios-price 
     .containers
         ul.portfolios-price__decor
             li.portfolios-price__decor-i
@@ -44,7 +44,7 @@
                 p Выручка за 2021 год:
                 h5 65 027 031 руб.
 
-.portfolios-description 
+section.portfolios-description 
     .containers
         .portfolios-description__w
             ul.portfolios-description__p
@@ -111,9 +111,8 @@
                             img(src="./svg/portfolios/arrow__button.svg" alt="icons")
 
 
-
-
-
 @@include('components/_footer.pug')
+
+@@include('components/_menu.pug')
 
 @@include('components/_script.pug')

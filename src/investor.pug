@@ -4,7 +4,7 @@
 
 @@include('components/_header.pug')
 
-.investor-main 
+section.investor-main 
     .investor-main__bg
         img(src="./img/investor/main/banner.png" alt="img")
     .containers
@@ -27,7 +27,7 @@
                 br 
                 | и подробно расскажем об условиях и вашей выгоде.
 
-.investor-description 
+section.investor-description 
     .containers
         .investor-description__w 
             .investor-description__t 
@@ -50,7 +50,7 @@
                         h5 Окружение
                         p Как минимум Вы получите новые деловые связи предпринимателей, инветоров и топ-менеджеров
 
-.investor-portfolio 
+section.investor-portfolio 
     .containers
         .investor-portfolio__w 
             .investor-portfolio__t Портфель компаний
@@ -182,7 +182,7 @@
                         h5 Выручка за 2021:
                         p 430 678 336 руб
 
-.investor-team 
+section.investor-team 
     .containers
         .investor-team__w 
             .investor-team__t Наш Совет директоров и Advisory board
@@ -260,7 +260,7 @@
                         h5 Филипцова Дарья
                         p HR-Business partne
 
-.investor-form
+section.investor-form
     .containers
         .investor-form__w
             .investor-form__i 
@@ -276,8 +276,8 @@
             include components/_form.pug
 
 
-
-
 @@include('components/_footer.pug')
+
+@@include('components/_menu.pug')
 
 @@include('components/_script.pug')

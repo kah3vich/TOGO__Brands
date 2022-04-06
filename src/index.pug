@@ -4,7 +4,7 @@
 
 @@include('components/_header.pug')
 
-.ind-main 
+section.ind-main 
     .ind-main__bg
         img(src="./img/index/main/bg.png" alt="img")
     .containers
@@ -51,7 +51,7 @@
             .ind-main__decor-i
                 img(src="./svg/index/main/decor__3.svg" alt="icons")
 
-.ind-description
+section.ind-description
     .containers 
         .ind-description__start
             .ind-description__start-d
@@ -75,7 +75,7 @@
                 h5 ДОБРО ПОЖАЛОВАТЬ В НОВУЮ ПАРАДИГМУ БРЕНДА...
                 p Где потребители меньше заботятся о существующих брендах и больше о том, что другие потребители говорят о брендах, где рейтинг и отзывы имеют большее значение, чем красивый логотип и броская фраза, и где для безупречного обслуживания клиентов требуется бесплатная доставка в течение 0-2 дней.
 
-.ind-portfolio 
+section.ind-portfolio 
     .containers
         .ind-portfolio__title Портфель TOGO
         .ind-portfolio__w
@@ -246,8 +246,96 @@
                         li.ind-portfolio__list-b
                             h5 Выручка за 2021:
                             p 430 678 336 руб
+            .ind-portfolio__slider
+                .swiper.indexPortfolio
+                    .swiper-wrapper
+                        .swiper-slide
+                            a(href="#").ind-portfolio__list-i 
+                                .ind-portfolio__list-p
+                                    img(src="./img/index/portfolio/photo.png" alt="img")
+                                .ind-portfolio__list-t LEVITA
+                                .ind-portfolio__list-d Сеть студий балета и растяжки
+                                ul.ind-portfolio__list-l
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                        .swiper-slide
+                            a(href="#").ind-portfolio__list-i 
+                                .ind-portfolio__list-p
+                                    img(src="./img/index/portfolio/photo.png" alt="img")
+                                .ind-portfolio__list-t LEVITA
+                                .ind-portfolio__list-d Сеть студий балета и растяжки
+                                ul.ind-portfolio__list-l
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                        .swiper-slide
+                            a(href="#").ind-portfolio__list-i 
+                                .ind-portfolio__list-p
+                                    img(src="./img/index/portfolio/photo.png" alt="img")
+                                .ind-portfolio__list-t LEVITA
+                                .ind-portfolio__list-d Сеть студий балета и растяжки
+                                ul.ind-portfolio__list-l
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                        .swiper-slide
+                            a(href="#").ind-portfolio__list-i 
+                                .ind-portfolio__list-p
+                                    img(src="./img/index/portfolio/photo.png" alt="img")
+                                .ind-portfolio__list-t LEVITA
+                                .ind-portfolio__list-d Сеть студий балета и растяжки
+                                ul.ind-portfolio__list-l
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                        .swiper-slide
+                            a(href="#").ind-portfolio__list-i 
+                                .ind-portfolio__list-p
+                                    img(src="./img/index/portfolio/photo.png" alt="img")
+                                .ind-portfolio__list-t LEVITA
+                                .ind-portfolio__list-d Сеть студий балета и растяжки
+                                ul.ind-portfolio__list-l
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
+                                    li.ind-portfolio__list-b
+                                        h5 Выручка за 2021:
+                                        p 430 678 336 руб
 
-.ind-team 
+                .swiper-controls
+                    //- .swiper-button-next
+                    //- .swiper-button-prev
+                    .swiper-pagination
+
+section.ind-team 
     .containers
         .ind-team__wrapper
             ul.ind-team__decor
@@ -344,10 +432,56 @@
                         .ind-team__list-d Мы живем в новый золотой век электронной коммерции, когда микробренды конкурируют с традиционными крупными брендами. Эта тенденция образовалась в следствии прямого обращения 
                         h5 Алексей прохоров
                         p Соучредитель акселератора TOGO
+            .ind-team__slider
+                .swiper.indexTeam
+                    .swiper-wrapper
+                        .swiper-slide 
+                            .ind-team__list-i
+                                .ind-team__list-p
+                                    img(src="./img/index/team/people__6.png" alt="img")
+                                .ind-team__list-t
+                                    .ind-team__list-d Мы живем в новый золотой век электронной коммерции, когда микробренды конкурируют с традиционными крупными брендами. Эта тенденция образовалась в следствии прямого обращения 
+                                    h5 Алексей прохоров
+                                    p Соучредитель акселератора TOGO
+                        .swiper-slide 
+                            .ind-team__list-i
+                                .ind-team__list-p
+                                    img(src="./img/index/team/people__6.png" alt="img")
+                                .ind-team__list-t
+                                    .ind-team__list-d Мы живем в новый золотой век электронной коммерции, когда микробренды конкурируют с традиционными крупными брендами. Эта тенденция образовалась в следствии прямого обращения 
+                                    h5 Алексей прохоров
+                                    p Соучредитель акселератора TOGO
+                        .swiper-slide 
+                            .ind-team__list-i
+                                .ind-team__list-p
+                                    img(src="./img/index/team/people__6.png" alt="img")
+                                .ind-team__list-t
+                                    .ind-team__list-d Мы живем в новый золотой век электронной коммерции, когда микробренды конкурируют с традиционными крупными брендами. Эта тенденция образовалась в следствии прямого обращения 
+                                    h5 Алексей прохоров
+                                    p Соучредитель акселератора TOGO
+                        .swiper-slide 
+                            .ind-team__list-i
+                                .ind-team__list-p
+                                    img(src="./img/index/team/people__6.png" alt="img")
+                                .ind-team__list-t
+                                    .ind-team__list-d Мы живем в новый золотой век электронной коммерции, когда микробренды конкурируют с традиционными крупными брендами. Эта тенденция образовалась в следствии прямого обращения 
+                                    h5 Алексей прохоров
+                                    p Соучредитель акселератора TOGO
+                        .swiper-slide 
+                            .ind-team__list-i
+                                .ind-team__list-p
+                                    img(src="./img/index/team/people__6.png" alt="img")
+                                .ind-team__list-t
+                                    .ind-team__list-d Мы живем в новый золотой век электронной коммерции, когда микробренды конкурируют с традиционными крупными брендами. Эта тенденция образовалась в следствии прямого обращения 
+                                    h5 Алексей прохоров
+                                    p Соучредитель акселератора TOGO
 
+                .swiper-controls 
+                    //- .swiper-button-next
+                    //- .swiper-button-prev
+                    .swiper-pagination
 
-
-.ind-news
+section.ind-news
     .containers
         .ind-news__title Новости
         .ind-news__list
@@ -397,7 +531,8 @@
                 .swiper-pagination
 
 
-
 @@include('components/_footer.pug')
+
+@@include('components/_menu.pug')
 
 @@include('components/_script.pug')

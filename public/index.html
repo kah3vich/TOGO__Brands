@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
     <link rel="shortcut icon" href="img/icons-1.ico" type="image/x-icon" id="rotateIcon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css?_v=20220405175729" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css?_v=20220406130913" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
   </head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220405175729" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.4/swiper-bundle.min.css?_v=20220405175729" integrity="sha512-V5B6OaBftIs7Kx8BBx7n2W42FpHP7MiXmDaKWTBdCsnStyS3gVYuA30kG6oABmh8uayFJDsfl2hCywak1eKE2w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.4/swiper-bundle.min.js?_v=20220405175729" integrity="sha512-ztZ7m9gYJmuwemu0TmAp9QDuhFhOYbbIoN6iIKMi5ay88l8U5tkt5OOlA/fP8DI/p/OphEY7QIbuoDQKpVvf7w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <link rel="stylesheet" href="css/style.min.css?_v=20220405175729">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js?_v=20220406130913" integrity="sha512-gWlyRVDsJvp5kesJt4cSdPPLZIBdln/uSwzYgUicQcbTgRNQE4QhP5KUBIYlLYLkiKIQiuD7KUMHzqGNW/D2bQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220406130913" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.4/swiper-bundle.min.css?_v=20220406130913" integrity="sha512-V5B6OaBftIs7Kx8BBx7n2W42FpHP7MiXmDaKWTBdCsnStyS3gVYuA30kG6oABmh8uayFJDsfl2hCywak1eKE2w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.4/swiper-bundle.min.js?_v=20220406130913" integrity="sha512-ztZ7m9gYJmuwemu0TmAp9QDuhFhOYbbIoN6iIKMi5ay88l8U5tkt5OOlA/fP8DI/p/OphEY7QIbuoDQKpVvf7w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="css/style.min.css?_v=20220406130913">
 </html>
 <body></body>
 <header class="header"> 
@@ -30,7 +31,7 @@
     </div>
   </div>
 </header>
-<div class="ind-main"> 
+<section class="ind-main"> 
   <div class="ind-main__bg"><img src="./img/index/main/bg.png" alt="img"></div>
   <div class="containers">
     <div class="ind-main__info"> 
@@ -62,8 +63,8 @@
       <div class="ind-main__decor-i"><img src="./svg/index/main/decor__3.svg" alt="icons"></div>
     </div>
   </div>
-</div>
-<div class="ind-description">
+</section>
+<section class="ind-description">
   <div class="containers"> 
     <div class="ind-description__start">
       <div class="ind-description__start-d"><img src="./svg/index/description/decor__1.svg" alt="icons"></div>
@@ -85,8 +86,8 @@
       </div>
     </div>
   </div>
-</div>
-<div class="ind-portfolio"> 
+</section>
+<section class="ind-portfolio"> 
   <div class="containers">
     <div class="ind-portfolio__title">Портфель TOGO</div>
     <div class="ind-portfolio__w">
@@ -285,10 +286,109 @@
               <p>430 678 336 руб</p>
             </li>
           </ul></a></div>
+      <div class="ind-portfolio__slider">
+        <div class="swiper indexPortfolio">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><a class="ind-portfolio__list-i" href="#"> 
+                <div class="ind-portfolio__list-p"><img src="./img/index/portfolio/photo.png" alt="img"></div>
+                <div class="ind-portfolio__list-t">LEVITA</div>
+                <div class="ind-portfolio__list-d">Сеть студий балета и растяжки</div>
+                <ul class="ind-portfolio__list-l">
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                </ul></a></div>
+            <div class="swiper-slide"><a class="ind-portfolio__list-i" href="#"> 
+                <div class="ind-portfolio__list-p"><img src="./img/index/portfolio/photo.png" alt="img"></div>
+                <div class="ind-portfolio__list-t">LEVITA</div>
+                <div class="ind-portfolio__list-d">Сеть студий балета и растяжки</div>
+                <ul class="ind-portfolio__list-l">
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                </ul></a></div>
+            <div class="swiper-slide"><a class="ind-portfolio__list-i" href="#"> 
+                <div class="ind-portfolio__list-p"><img src="./img/index/portfolio/photo.png" alt="img"></div>
+                <div class="ind-portfolio__list-t">LEVITA</div>
+                <div class="ind-portfolio__list-d">Сеть студий балета и растяжки</div>
+                <ul class="ind-portfolio__list-l">
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                </ul></a></div>
+            <div class="swiper-slide"><a class="ind-portfolio__list-i" href="#"> 
+                <div class="ind-portfolio__list-p"><img src="./img/index/portfolio/photo.png" alt="img"></div>
+                <div class="ind-portfolio__list-t">LEVITA</div>
+                <div class="ind-portfolio__list-d">Сеть студий балета и растяжки</div>
+                <ul class="ind-portfolio__list-l">
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                </ul></a></div>
+            <div class="swiper-slide"><a class="ind-portfolio__list-i" href="#"> 
+                <div class="ind-portfolio__list-p"><img src="./img/index/portfolio/photo.png" alt="img"></div>
+                <div class="ind-portfolio__list-t">LEVITA</div>
+                <div class="ind-portfolio__list-d">Сеть студий балета и растяжки</div>
+                <ul class="ind-portfolio__list-l">
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                  <li class="ind-portfolio__list-b">
+                    <h5>Выручка за 2021:</h5>
+                    <p>430 678 336 руб</p>
+                  </li>
+                </ul></a></div>
+          </div>
+        </div>
+        <div class="swiper-controls">
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<div class="ind-team"> 
+</section>
+<section class="ind-team"> 
   <div class="containers">
     <div class="ind-team__wrapper">
       <ul class="ind-team__decor">
@@ -371,10 +471,69 @@
           </div>
         </li>
       </ul>
+      <div class="ind-team__slider">
+        <div class="swiper indexTeam">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"> 
+              <div class="ind-team__list-i">
+                <div class="ind-team__list-p"><img src="./img/index/team/people__6.png" alt="img"></div>
+                <div class="ind-team__list-t">
+                  <div class="ind-team__list-d">Мы живем в новый золотой век электронной коммерции, когда микробренды конкурируют с традиционными крупными брендами. Эта тенденция образовалась в следствии прямого обращения </div>
+                  <h5>Алексей прохоров</h5>
+                  <p>Соучредитель акселератора TOGO</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide"> 
+              <div class="ind-team__list-i">
+                <div class="ind-team__list-p"><img src="./img/index/team/people__6.png" alt="img"></div>
+                <div class="ind-team__list-t">
+                  <div class="ind-team__list-d">Мы живем в новый золотой век электронной коммерции, когда микробренды конкурируют с традиционными крупными брендами. Эта тенденция образовалась в следствии прямого обращения </div>
+                  <h5>Алексей прохоров</h5>
+                  <p>Соучредитель акселератора TOGO</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide"> 
+              <div class="ind-team__list-i">
+                <div class="ind-team__list-p"><img src="./img/index/team/people__6.png" alt="img"></div>
+                <div class="ind-team__list-t">
+                  <div class="ind-team__list-d">Мы живем в новый золотой век электронной коммерции, когда микробренды конкурируют с традиционными крупными брендами. Эта тенденция образовалась в следствии прямого обращения </div>
+                  <h5>Алексей прохоров</h5>
+                  <p>Соучредитель акселератора TOGO</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide"> 
+              <div class="ind-team__list-i">
+                <div class="ind-team__list-p"><img src="./img/index/team/people__6.png" alt="img"></div>
+                <div class="ind-team__list-t">
+                  <div class="ind-team__list-d">Мы живем в новый золотой век электронной коммерции, когда микробренды конкурируют с традиционными крупными брендами. Эта тенденция образовалась в следствии прямого обращения </div>
+                  <h5>Алексей прохоров</h5>
+                  <p>Соучредитель акселератора TOGO</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide"> 
+              <div class="ind-team__list-i">
+                <div class="ind-team__list-p"><img src="./img/index/team/people__6.png" alt="img"></div>
+                <div class="ind-team__list-t">
+                  <div class="ind-team__list-d">Мы живем в новый золотой век электронной коммерции, когда микробренды конкурируют с традиционными крупными брендами. Эта тенденция образовалась в следствии прямого обращения </div>
+                  <h5>Алексей прохоров</h5>
+                  <p>Соучредитель акселератора TOGO</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-controls"> 
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<div class="ind-news">
+</section>
+<section class="ind-news">
   <div class="containers">
     <div class="ind-news__title">Новости</div>
     <div class="ind-news__list"><a class="ind-news__list-i" href="news.html">
@@ -415,7 +574,7 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 <div class="footer__block"></div>
 <footer class="footer"> 
   <div class="containers"> 
@@ -447,4 +606,21 @@
     </div>
   </div>
 </footer>
-<script type="module" src="js/webpack.min.js?_v=20220405175729"></script>
+<div class="menu display-n">
+  <div class="menu__w"> 
+    <div class="menu__nav"> <a class="menu__nav-l" href="#"> <img src="./img/logo__headers.png" alt="logo"></a>
+      <button class="menu__nav-c"><img src="./svg/close.svg" alt="close"></button>
+    </div>
+    <ul class="menu__l"> 
+      <li class="menu__l-i"><a href="about.html">О НАС</a></li>
+      <li class="menu__l-i"><a href="portfolio.html">ПОРТФЕЛЬ БРЕНДОВ</a></li>
+      <li class="menu__l-i"><a href="team.html">НАША КОМАНДА</a></li>
+      <li class="menu__l-i"><a href="partner.html">ПАРТЕРАМ</a></li>
+      <li class="menu__l-i"><a href="investor.html">ИНВЕСТОРАМ</a></li>
+      <li class="menu__l-i"><a href="news.html">НОВОСТИ </a></li>
+      <li class="menu__l-i"><a href="contact.html">КОНТАКТЫ</a></li>
+    </ul><a class="menu__b" href="#"> 
+      <p>Стать партнером Togobrands</p><img src="./svg/arrow.svg" alt="icons"></a>
+  </div>
+</div>
+<script type="module" src="js/webpack.min.js?_v=20220406130913"></script>

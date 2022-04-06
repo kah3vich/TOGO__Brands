@@ -4,7 +4,7 @@
 
 @@include('components/_header.pug')
 
-.about-main 
+section.about-main 
     .about-main__bg
         img(src="./img/about/main/banner.png" alt="img")
     .containers
@@ -26,15 +26,14 @@
                         <path d="M1 1H11V11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
 
-
-.about-banner 
+section.about-banner 
     .containers
         .about-banner__wrapper
             .about-banner__t Успех требует сложных моделей данных
             .about-banner__b 
                 img(src="./svg/about/banner.svg" alt="icons")
 
-.about-description 
+section.about-description 
     .containers
         .about-description__w
             .about-description__t Команда ГК Togo сделала все это
@@ -81,7 +80,8 @@
                 </svg>
 
 
-
 @@include('components/_footer.pug')
+
+@@include('components/_menu.pug')
 
 @@include('components/_script.pug')

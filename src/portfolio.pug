@@ -4,14 +4,14 @@
 
 @@include('components/_header.pug')
 
-.portfolio-main 
+section.portfolio-main 
     .portfolio-main__bg
         img(src="./img/portfolio/main/banner.png" alt="img")
     .containers
         .portfolio-main__w 
             .portfolio-main__t ПОРТФЕЛЬ БРЕНДОВ
 
-.portfolio-table 
+section.portfolio-table 
     .containers
         .portfolio-table__w 
             ul.portfolio-table__n
@@ -69,8 +69,7 @@
                         p В 129 городах РФ/СНГ/ЕС
                         img(src="./svg/portfolio/arrow__up.svg" alt="icons")
 
-
-.portfolio-list 
+section.portfolio-list 
     .containers
         .portfolio-list__w
             .portfolio-list__t Топ портфельных компаний
@@ -271,11 +270,8 @@
                                 img(src="./svg/portfolio/arrow__link.svg" alt="icons")
 
 
-
-
-
-
-
 @@include('components/_footer.pug')
+
+@@include('components/_menu.pug')
 
 @@include('components/_script.pug')
