@@ -1,5 +1,12 @@
 "use strict";
 
+window.addEventListener("scroll", function () {
+  if (pageYOffset >= 100) {
+    $(".footer").removeClass("opacity");
+  } else if (pageYOffset <= 100) {
+    $(".footer").addClass("opacity");
+  }
+});
 var indexNews = new Swiper(".indexNews", {
   pagination: {
     el: ".ind-news__s .swiper-pagination",

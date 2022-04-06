@@ -78,6 +78,11 @@ h6 {
 	display: none !important;
 }
 
+.opacity {
+	opacity: 0 !important;
+	transition: all 0.5s ease;
+}
+
 .header {
 	width: 100%;
 	padding: 30px 0;
@@ -110,6 +115,14 @@ h6 {
 			& .header__i a {
 				color: #ffffff;
 			}
+			& .header__m {
+				& img:nth-child(1) {
+					display: none;
+				}
+				& img:nth-child(2) {
+					display: block;
+				}
+			}
 		}
 		&-b {
 			& .header__logo {
@@ -122,6 +135,14 @@ h6 {
 			}
 			& .header__i a {
 				color: #000000;
+			}
+			& .header__m {
+				& img:nth-child(1) {
+					display: block;
+				}
+				& img:nth-child(2) {
+					display: none;
+				}
 			}
 		}
 	}
@@ -150,6 +171,7 @@ h6 {
 
 .footer {
 	width: 100%;
+	transition: all 0.5s ease;
 	padding: 40px 0;
 	// background: linear-gradient(180deg, #e2f8ff 0%, #ffffff 100%);
 	// border-radius: 70px 70px 0px 0px;

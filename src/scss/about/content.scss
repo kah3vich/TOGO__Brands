@@ -168,6 +168,9 @@
 		align-items: center;
 		justify-content: flex-start;
 	}
+	&__m {
+		display: none;
+	}
 	&__t {
 		font-family: TTNorms;
 		font-style: normal;
@@ -197,12 +200,18 @@
 		justify-content: flex-start;
 	}
 	&__t {
-		font-family: TTNorms;
-		font-style: normal;
-		font-weight: 700;
-		font-size: 40px;
-		line-height: 58px;
-		color: #313131;
+		position: relative;
+		& p {
+			font-family: TTNorms;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 40px;
+			line-height: 58px;
+			color: #313131;
+		}
+		&-d {
+			display: none;
+		}
 	}
 	&__l {
 		margin: 85px 0 0 0;

@@ -66,6 +66,38 @@
 	}
 }
 
+@media (max-width: 700px) {
+	.form__b {
+		width: 100%;
+		padding: 65px 24px 60px 24px;
+	}
+	.form__b-n {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+	.form__b-name {
+		width: 100%;
+	}
+	.form__b-name input {
+		width: 100%;
+	}
+	.form__b-phone {
+		margin: 25px 0 0 0;
+		width: 100%;
+		& input {
+			width: 100%;
+		}
+	}
+	.form__b-btn {
+		padding: 19px 30px;
+	}
+	.form__b {
+		border-radius: 100px 0px 30px 30px;
+	}
+}
+
 @media (max-width: 660px) {
 	.footer__add {
 		display: flex;
