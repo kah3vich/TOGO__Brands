@@ -4,32 +4,35 @@
 	z-index: 2;
 	padding: 110px 0 115px 0;
 	background: #fff;
-	height: 90vh;
+	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	&__bg {
 		position: absolute;
-		top: -110px;
+		top: 0;
 		left: 50%;
 		transform: translate(-50%, 0%);
 		width: 100%;
-		height: calc(100% + 110px);
+		height: 100%;
+		border-radius: 100px 0px 0px 0px;
 		z-index: 1;
 		& img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
+			border-radius: 100px 0px 0px 0px;
 		}
 	}
 	&::after {
 		content: "";
+		border-radius: 100px 0px 0px 0px;
 		position: absolute;
-		top: -110px;
+		top: 0;
 		left: 50%;
 		transform: translate(-50%, 0%);
 		width: 100%;
-		height: calc(100% + 110px);
+		height: 100%;
 		z-index: 2;
 		background: linear-gradient(
 			104.12deg,

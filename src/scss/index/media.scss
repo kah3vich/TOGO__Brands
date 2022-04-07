@@ -37,6 +37,17 @@
 	.ind-team__start p {
 		line-height: 50px;
 	}
+	.ind-main__decor-i:nth-child(3) {
+		top: 400px;
+		right: 120px;
+	}
+}
+
+@media (max-width: 1400px) {
+	.ind-portfolio__table,
+	.ind-portfolio__nav {
+		width: 1200px;
+	}
 }
 
 @media (max-width: 1380px) {

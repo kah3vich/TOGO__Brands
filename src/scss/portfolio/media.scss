@@ -1,0 +1,130 @@
+@media (max-width: 1400px) {
+	.portfolio-table__n,
+	.portfolio-table__t {
+		width: 1200px;
+	}
+	.portfolio-list__l {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+		gap: 50px 30px;
+	}
+	.portfolio-list__l-i {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1350px) {
+	.portfolio-list__w {
+		padding: 0;
+	}
+}
+
+@media (max-width: 1150px) {
+	.portfolio-list__b {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		margin: 75px auto 0 0;
+	}
+	.portfolio-list__b-i {
+		margin: 55px 0 0 0;
+	}
+}
+
+@media (max-width: 900px) {
+	.portfolio-list__l {
+		display: none;
+	}
+	.portfolio-list__slider {
+		display: block;
+		width: 100%;
+		padding: 0 0 55px 0;
+		position: relative;
+		margin: 75px 0 0 0;
+	}
+	.portfolio-main::after {
+		border-radius: 0 0 0 0;
+		background: linear-gradient(164.03deg, #0063be 0%, rgba(0, 99, 190, 0) 100%);
+	}
+	.portfolio-main__bg {
+		border-radius: 0 0 0 0;
+		& img {
+			border-radius: 0 0 0 0;
+		}
+	}
+	.portfolio-list__b-i {
+		background: transparent;
+		padding: 25px 0;
+		width: 100%;
+		&::after {
+			content: none;
+		}
+	}
+	.portfolio-list__b-p {
+		display: none;
+	}
+	.portfolio-list__b {
+		width: 100%;
+	}
+	.portfolio-list__b-t {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		width: 100%;
+	}
+	.portfolio-list__b-title {
+		font-family: Circe;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 25px;
+		line-height: 37px;
+		color: #363636;
+	}
+	.portfolio-list {
+		border-radius: 40px;
+	}
+	.portfolio-list__b-w {
+		width: 100%;
+		justify-content: space-around;
+		align-items: center;
+		margin: 30px 0 0 0;
+	}
+	.portfolio-list__b-link {
+		background: #3ea3f2;
+		border-radius: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		padding: 16px 35px;
+		max-width: 330px;
+		width: 100%;
+	}
+	.portfolio-list__b-link img {
+		position: absolute;
+		top: 50%;
+		right: 35px;
+		transform: translate(0%, -50%);
+	}
+	.portfolio-main {
+		height: 100%;
+	}
+}
+
+@media (max-width: 750px) {
+	.portfolio-list__b-w {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	.portfolio-list__b-link {
+		margin: 0 0 20px 0;
+		&:last-child {
+			margin: 0 0 0 0;
+		}
+	}
+}

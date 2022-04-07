@@ -77,3 +77,86 @@ $(".menu__nav-c").on("click", function () {
   }, 1000);
 });
 ;
+var portfolioSlider = new Swiper(".portfolioSlider", {
+  pagination: {
+    el: ".portfolio-list__slider .swiper-pagination",
+    type: "progressbar"
+  },
+  breakpoints: {
+    700: {
+      slidesPerView: 2,
+      spaceBetween: 50
+    },
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 0
+    }
+  }
+});
+;
+var investorPortfolioSlider = new Swiper(".investorPortfolioSlider", {
+  pagination: {
+    el: ".investor-portfolio__slider .swiper-pagination",
+    type: "progressbar"
+  },
+  breakpoints: {
+    700: {
+      slidesPerView: 2,
+      spaceBetween: 50
+    },
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 0
+    }
+  }
+});
+var investorTeamSlider = new Swiper(".investorTeamSlider", {
+  pagination: {
+    el: ".investor-team__slider .swiper-pagination",
+    type: "progressbar"
+  },
+  breakpoints: {
+    700: {
+      slidesPerView: 2,
+      spaceBetween: 50
+    },
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 0
+    }
+  }
+});
+;
+var partnerPortfolioSlider = new Swiper(".partnerPortfolioSlider", {
+  pagination: {
+    el: ".partner-portfolio__slider .swiper-pagination",
+    type: "progressbar"
+  },
+  breakpoints: {
+    700: {
+      slidesPerView: 2,
+      spaceBetween: 50
+    },
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 0
+    }
+  }
+});
+var partnerTeamSlider = new Swiper(".partnerTeamSlider", {
+  pagination: {
+    el: ".partner-team__slider .swiper-pagination",
+    type: "progressbar"
+  },
+  breakpoints: {
+    700: {
+      slidesPerView: 2,
+      spaceBetween: 50
+    },
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 0
+    }
+  }
+});
+;
