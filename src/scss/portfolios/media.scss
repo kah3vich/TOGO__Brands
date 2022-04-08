@@ -193,4 +193,52 @@
 	.portfolios-btns__e {
 		min-width: 100%;
 	}
+	.portfolios-main {
+		margin: 80px 0 0 0;
+	}
+	.portfolios-main__bg {
+		top: 0;
+		height: 100%;
+		& img {
+			top: 0;
+			height: 100%;
+		}
+	}
+	.portfolios-price__decor-i:nth-child(1) {
+		display: none;
+	}
+	.portfolios-description__i-t {
+		font-family: TTNorms;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 135%;
+		color: #363636;
+	}
+	.portfolios-description__i-text {
+		font-family: TTNorms;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 30px;
+		color: #484848;
+	}
+	.portfolios-banner__t {
+		font-family: TTNorms;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 33px;
+		color: #2e2e2e;
+	}
+	.portfolios-btns__e {
+		padding: 0;
+	}
+	.portfolios-description {
+		padding: 0 0 35px 0;
+	}
+	.portfolios-banner__b {
+		width: 100%;
+		padding: 50px 0 25px 0;
+	}
 }

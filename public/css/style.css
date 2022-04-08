@@ -637,9 +637,6 @@ h6 {
 
 .footer {
 	width : 100%;
-	-webkit-transition : all 0.5s ease;
-	     -o-transition : all 0.5s ease;
-	        transition : all 0.5s ease;
 	padding : 40px 0;
 	background : #ffffff;
 	position : fixed;
@@ -4978,7 +4975,7 @@ h6 {
 
 .portfolios-banner__b {
 	width : 100%;
-	padding : 150px 0 75px 0;
+	padding : 50px 0 75px 0;
 }
 
 .portfolios-banner__b img {
@@ -4986,6 +4983,16 @@ h6 {
 	height : 100%;
 	-o-object-fit : contain;
 	   object-fit : contain;
+}
+
+.portfolios-banner__t {
+	font-family : TTNorms;
+	padding : 95px 0 0 0;
+	font-style : normal;
+	font-weight : 700;
+	font-size : 40px;
+	line-height : 54px;
+	color : #000000;
 }
 
 .portfolios-btns__w {
@@ -9814,6 +9821,73 @@ h6 {
 		display : none;
 	}
 
+	.ind-main .containers {
+		padding : 0;
+	}
+
+	.ind-main__info {
+		padding : 0 25px;
+	}
+
+	.ind-main__decor {
+		display : none;
+	}
+
+	.ind-main__bg img {
+		width : 200%;
+		height : 100%;
+		z-index : 1;
+		position : relative;
+	}
+
+	.ind-main__bg {
+		position : absolute;
+		top : 0;
+		left : 50%;
+		-webkit-transform : translate(-50%, 0%);
+		    -ms-transform : translate(-50%, 0%);
+		        transform : translate(-50%, 0%);
+		width : 100%;
+		height : 61%;
+		z-index : 1;
+	}
+
+	.ind-main {
+		margin : 80px 0 0 0;
+		overflow : hidden;
+	}
+
+	.ind-description {
+		width : 100%;
+		position : relative;
+		z-index : 2;
+		padding : 110px 0 160px 0;
+		background : #ffffff;
+	}
+
+	.ind-main__video {
+		border-radius : 0px 0px 0px 160px;
+	}
+
+	.ind-description {
+		width : 100%;
+		position : relative;
+		z-index : 2;
+		padding : 110px 0 90px 0;
+	}
+
+	.ind-portfolio__start {
+		margin : 70px 0 0 0;
+		position : relative;
+		top : auto;
+		left : auto;
+		z-index : 3;
+	}
+
+	.ind-team__start-t {
+		padding : 0;
+	}
+
 	.about-main::after {
 		background : rgba(0, 99, 190, 0.8);
 	}
@@ -9878,7 +9952,7 @@ h6 {
 
 	.about-main__i {
 		background : #ffffff !important;
-		border : 2px solid #3ea3f2 !important;
+		border : 2px solid #ffffff !important;
 		width : 100%;
 		position : relative;
 	}
@@ -9889,7 +9963,7 @@ h6 {
 		font-weight : 700;
 		font-size : 16px;
 		line-height : 24px;
-		color : #3ea3f2 !important;
+		color : #000000 !important;
 	}
 
 	.about-main__i svg {
@@ -9993,6 +10067,98 @@ h6 {
 		justify-content : flex-start;
 	}
 
+	.about-main {
+		margin : 80px 0 0 0;
+	}
+
+	.about-banner__m {
+		display : block;
+		margin : 50px 0 0 0;
+	}
+
+	.about-banner {
+		width : 100%;
+		position : relative;
+		z-index : 2;
+		background : #ffffff;
+		padding : 50px 0 30px;
+	}
+
+	.about-description__l-i:nth-child(odd) .about-description__l-t {
+		margin : 50px 0 0 0;
+	}
+
+	.about-description__l-i:nth-child(even) .about-description__l-t {
+		margin : 50px 0 0 0;
+	}
+
+	.about-description__l-i {
+		margin : 70px 0 0 0;
+	}
+
+	.about-main__bg {
+		position : absolute;
+		top : 0;
+		left : 50%;
+		-webkit-transform : translate(-50%, 0%);
+		    -ms-transform : translate(-50%, 0%);
+		        transform : translate(-50%, 0%);
+		width : 100%;
+		height : 100%;
+		z-index : 1;
+		border-radius : 0 0 0 0;
+	}
+
+	.about-main__bg img {
+		top : 0;
+		height : 100%;
+	}
+
+	.portfolio-main {
+		margin : 80px 0 0 0;
+	}
+
+	.portfolio-table {
+		width : 100%;
+		background : #ffffff;
+		padding : 10px 0 100px 0;
+		position : relative;
+		z-index : 2;
+	}
+
+	.portfolio-main__bg {
+		top : 0;
+		height : 100%;
+	}
+
+	.portfolio-main__bg img {
+		height : 100%;
+		top : 0;
+	}
+
+	.portfolio-main::after {
+		background : -o-linear-gradient(285.97deg, #0063be 0%, rgba(0, 99, 190, 0) 100%);
+		background :    linear-gradient(164.03deg, #0063be 0%, rgba(0, 99, 190, 0) 100%);
+	}
+
+	.portfolio-main__t {
+		font-family : TTNorms;
+		font-style : normal;
+		font-weight : 700;
+		font-size : 30px;
+		line-height : 135%;
+		color : #ffffff;
+		width : 80%;
+	}
+
+	.portfolio-list__b-i {
+		padding : 0;
+	}
+
+	.portfolio-list {
+		padding : 60px 0 50px 0;
+	}
+
 	.investor-main__t {
 		font-family : TTNorms;
 		font-style : normal;
@@ -10082,6 +10248,59 @@ h6 {
 		color : #303030;
 	}
 
+	.investor-main {
+		margin : 80px 0 0 0;
+		height : 100%;
+	}
+
+	.investor-main__bg {
+		top : 0;
+		height : 100%;
+	}
+
+	.investor-main__bg img {
+		top : 0;
+		height : 100%;
+	}
+
+	.investor-description {
+		width : 100%;
+		position : relative;
+		z-index : 2;
+		padding : 130px 0 60px 0;
+		background : #ffffff;
+	}
+
+	.investor-portfolio__t {
+		font-family : TTNorms;
+		font-style : normal;
+		font-weight : 700;
+		font-size : 30px;
+		line-height : 135%;
+		color : #363636;
+	}
+
+	.investor-team__t {
+		font-family : TTNorms;
+		font-style : normal;
+		font-weight : 700;
+		font-size : 30px;
+		line-height : 135%;
+		color : #363636;
+	}
+
+	.investor-form__i {
+		margin : 35px 0 0 0;
+	}
+
+	.investor-description {
+		width : 100%;
+		position : relative;
+		z-index : 2;
+		padding : 80px 0 60px 0;
+		background : #ffffff;
+	}
+
 	.portfolios-main__t {
 		font-family : TTNorms;
 		font-style : normal;
@@ -10138,6 +10357,64 @@ h6 {
 		min-width : 100%;
 	}
 
+	.portfolios-main {
+		margin : 80px 0 0 0;
+	}
+
+	.portfolios-main__bg {
+		top : 0;
+		height : 100%;
+	}
+
+	.portfolios-main__bg img {
+		top : 0;
+		height : 100%;
+	}
+
+	.portfolios-price__decor-i:nth-child(1) {
+		display : none;
+	}
+
+	.portfolios-description__i-t {
+		font-family : TTNorms;
+		font-style : normal;
+		font-weight : 700;
+		font-size : 30px;
+		line-height : 135%;
+		color : #363636;
+	}
+
+	.portfolios-description__i-text {
+		font-family : TTNorms;
+		font-style : normal;
+		font-weight : 700;
+		font-size : 16px;
+		line-height : 30px;
+		color : #484848;
+	}
+
+	.portfolios-banner__t {
+		font-family : TTNorms;
+		font-style : normal;
+		font-weight : 700;
+		font-size : 20px;
+		line-height : 33px;
+		color : #2e2e2e;
+	}
+
+	.portfolios-btns__e {
+		padding : 0;
+	}
+
+	.portfolios-description {
+		padding : 0 0 35px 0;
+	}
+
+	.portfolios-banner__b {
+		width : 100%;
+		padding : 50px 0 25px 0;
+	}
+
 	.contact-main .containers:last-child {
 		padding : 0;
 	}
@@ -10179,6 +10456,14 @@ h6 {
 
 	.contact-main__c {
 		margin : 55px 0 0 0;
+	}
+
+	.contact-main__btns {
+		margin : 35px 0 0 0;
+	}
+
+	.contact-main__btn {
+		padding : 0;
 	}
 
 	.team-main__t {
@@ -10278,6 +10563,37 @@ h6 {
 		background : rgba(0, 99, 190, 0.8);
 	}
 
+	.team-main {
+		margin : 80px 0 0 0;
+		height : 100%;
+	}
+
+	.team-main__bg {
+		top : 0;
+		height : 100%;
+	}
+
+	.team-main__bg img {
+		top : 0;
+		height : 100%;
+	}
+
+	.team-team {
+		width : 100%;
+		position : relative;
+		z-index : 2;
+		background : #ffffff;
+		padding : 90px 0 90px 0;
+	}
+
+	.team-form__i {
+		margin : 20px 0 0 0;
+	}
+
+	.team-description__text {
+		margin : 60px 0 0 0;
+	}
+
 	.partner-main__t {
 		font-family : TTNorms;
 		font-style : normal;
@@ -10359,6 +10675,93 @@ h6 {
 		left : -34px;
 	}
 
+	.partner-main {
+		height : 100%;
+		margin : 80px 0 0 0;
+	}
+
+	.partner-main__bg {
+		top : 0;
+		height : 100%;
+	}
+
+	.partner-main__bg img {
+		top : 0;
+		height : 100%;
+	}
+
+	.partner-box {
+		width : 100%;
+		padding : 110px 0 60px 0;
+		position : relative;
+		z-index : 2;
+		background : #ffffff;
+	}
+
+	.partner-box__i-decor {
+		position : absolute;
+		top : -47px;
+		left : -34px;
+		z-index : 1;
+	}
+
+	.partner-portfolio__t {
+		font-family : TTNorms;
+		font-style : normal;
+		font-weight : 700;
+		font-size : 30px;
+		line-height : 135%;
+		color : #363636;
+		width : 80%;
+	}
+
+	.partner-description {
+		width : 100%;
+		background : #ffffff;
+		padding : 75px 0 45px 0;
+		position : relative;
+		z-index : 2;
+	}
+
+	.partner-team__t p {
+		font-family : TTNorms;
+		font-style : normal;
+		font-weight : 700;
+		font-size : 28px;
+		line-height : 135%;
+		color : #363636;
+	}
+
+	.partner-grafic {
+		width : 100%;
+		position : relative;
+		z-index : 2;
+		background : #ffffff;
+		padding : 40px 0 40px 0;
+	}
+
+	.partner-grafic__t p {
+		font-family : TTNorms;
+		font-style : normal;
+		font-weight : 700;
+		font-size : 30px;
+		line-height : 135%;
+		color : #363636;
+	}
+
+	.partner-form__info svg {
+		position : absolute;
+		top : 50%;
+		right : 30px;
+		-webkit-transform : translate(0%, -50%);
+		    -ms-transform : translate(0%, -50%);
+		        transform : translate(0%, -50%);
+	}
+
+	.partner-form__file svg {
+		right : 30px;
+	}
+
 	.footer__info-c a {
 		font-family : Roboto;
 		font-style : normal;
@@ -10375,6 +10778,31 @@ h6 {
 		font-size : 16px;
 		line-height : 26px;
 		color : #111111;
+	}
+
+	.footer__block {
+		display : none;
+	}
+
+	.footer {
+		position : relative;
+		bottom : auto;
+		left : auto;
+		-webkit-transform : none;
+		    -ms-transform : none;
+		        transform : none;
+	}
+
+	.header {
+		background : #ffffff;
+		position : fixed;
+		top : 0;
+		left : 0;
+		padding : 15px 0;
+	}
+
+	.menu__w {
+		padding : 13px 25px 30px 25px;
 	}
 }
 

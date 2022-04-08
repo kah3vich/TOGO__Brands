@@ -130,4 +130,23 @@
 		line-height: 26px;
 		color: #111111;
 	}
+	.footer__block {
+		display: none;
+	}
+	.footer {
+		position: relative;
+		bottom: auto;
+		left: auto;
+		transform: none;
+	}
+	.header {
+		background: #fff;
+		position: fixed;
+		top: 0;
+		left: 0;
+		padding: 15px 0;
+	}
+	.menu__w {
+		padding: 13px 25px 30px 25px;
+	}
 }

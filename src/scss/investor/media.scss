@@ -211,4 +211,49 @@
 		line-height: 46px;
 		color: #303030;
 	}
+	.investor-main {
+		margin: 80px 0 0 0;
+		height: 100%;
+	}
+	.investor-main__bg {
+		top: 0;
+		height: 100%;
+		& img {
+			top: 0;
+			height: 100%;
+		}
+	}
+	.investor-description {
+		width: 100%;
+		position: relative;
+		z-index: 2;
+		padding: 130px 0 60px 0;
+		background: #ffffff;
+	}
+	.investor-portfolio__t {
+		font-family: TTNorms;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 135%;
+		color: #363636;
+	}
+	.investor-team__t {
+		font-family: TTNorms;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 135%;
+		color: #363636;
+	}
+	.investor-form__i {
+		margin: 35px 0 0 0;
+	}
+	.investor-description {
+		width: 100%;
+		position: relative;
+		z-index: 2;
+		padding: 80px 0 60px 0;
+		background: #ffffff;
+	}
 }

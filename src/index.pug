@@ -38,7 +38,7 @@ section.ind-main
                     </svg>
 
         .ind-main__video
-            <video autoplay muted loop>
+            <video autoplay muted loop id='vid'>
                 <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
             </video>
 
@@ -529,6 +529,8 @@ section.ind-news
             .swiper-controls 
                 .swiper-pagination
 
+script.
+    $("#vid")[0].play();
 
 @@include('components/_footer.pug')
 

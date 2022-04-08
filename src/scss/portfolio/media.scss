@@ -128,3 +128,42 @@
 		}
 	}
 }
+
+@media (max-width: 550px) {
+	.portfolio-main {
+		margin: 80px 0 0 0;
+	}
+	.portfolio-table {
+		width: 100%;
+		background: #ffffff;
+		padding: 10px 0 100px 0;
+		position: relative;
+		z-index: 2;
+	}
+	.portfolio-main__bg {
+		top: 0;
+		height: 100%;
+		& img {
+			height: 100%;
+			top: 0;
+		}
+	}
+	.portfolio-main::after {
+		background: linear-gradient(164.03deg, #0063be 0%, rgba(0, 99, 190, 0) 100%);
+	}
+	.portfolio-main__t {
+		font-family: TTNorms;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 135%;
+		color: #ffffff;
+		width: 80%;
+	}
+	.portfolio-list__b-i {
+		padding: 0;
+	}
+	.portfolio-list {
+		padding: 60px 0 50px 0;
+	}
+}

@@ -264,4 +264,77 @@
 		top: -50px;
 		left: -34px;
 	}
+	.partner-main {
+		height: 100%;
+		margin: 80px 0 0 0;
+	}
+	.partner-main__bg {
+		top: 0;
+		height: 100%;
+		& img {
+			top: 0;
+			height: 100%;
+		}
+	}
+	.partner-box {
+		width: 100%;
+		padding: 110px 0 60px 0;
+		position: relative;
+		z-index: 2;
+		background: #ffffff;
+	}
+	.partner-box__i-decor {
+		position: absolute;
+		top: -47px;
+		left: -34px;
+		z-index: 1;
+	}
+	.partner-portfolio__t {
+		font-family: TTNorms;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 135%;
+		color: #363636;
+		width: 80%;
+	}
+	.partner-description {
+		width: 100%;
+		background: #ffffff;
+		padding: 75px 0 45px 0;
+		position: relative;
+		z-index: 2;
+	}
+	.partner-team__t p {
+		font-family: TTNorms;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 28px;
+		line-height: 135%;
+		color: #363636;
+	}
+	.partner-grafic {
+		width: 100%;
+		position: relative;
+		z-index: 2;
+		background: #ffffff;
+		padding: 40px 0 40px 0;
+	}
+	.partner-grafic__t p {
+		font-family: TTNorms;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 135%;
+		color: #363636;
+	}
+	.partner-form__info svg {
+		position: absolute;
+		top: 50%;
+		right: 30px;
+		transform: translate(0%, -50%);
+	}
+	.partner-form__file svg {
+		right: 30px;
+	}
 }
