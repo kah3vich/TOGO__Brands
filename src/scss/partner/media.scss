@@ -337,4 +337,14 @@
 	.partner-form__file svg {
 		right: 30px;
 	}
+	.partner-main__bg {
+		border-radius: 0 0 0 0;
+		& img {
+			border-radius: 0 0 0 0;
+		}
+	}
+	.partner-main::after {
+		border-radius: 0 0 0 0;
+		background: linear-gradient(164.03deg, rgba(0, 99, 190, 0.81) 63.87%, rgba(0, 99, 190, 0) 100%);
+	}
 }

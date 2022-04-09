@@ -3364,13 +3364,13 @@ h6 {
 
 .portfolio-main__bg {
 	position : absolute;
-	top : -110px;
+	top : 0;
 	left : 50%;
 	-webkit-transform : translate(-50%, 0%);
 	    -ms-transform : translate(-50%, 0%);
 	        transform : translate(-50%, 0%);
 	width : 100%;
-	height : calc(100% + 110px);
+	height : 100%;
 	z-index : 1;
 	border-radius : 100px 0px 0px 0px;
 }
@@ -3386,14 +3386,14 @@ h6 {
 .portfolio-main::after {
 	content : "";
 	position : absolute;
-	top : -110px;
+	top : 0;
 	left : 50%;
 	border-radius : 100px 0px 0px 0px;
 	-webkit-transform : translate(-50%, 0%);
 	    -ms-transform : translate(-50%, 0%);
 	        transform : translate(-50%, 0%);
 	width : 100%;
-	height : calc(100% + 110px);
+	height : 100%;
 	z-index : 2;
 	background : -o-linear-gradient(345.88deg, rgba(0, 99, 190, 0.92) 32.95%, rgba(0, 99, 190, 0) 102.05%);
 	background :    linear-gradient(104.12deg, rgba(0, 99, 190, 0.92) 32.95%, rgba(0, 99, 190, 0) 102.05%);
@@ -6153,14 +6153,15 @@ h6 {
 
 .partner-main__bg {
 	position : absolute;
-	top : -110px;
+	top : 0;
 	left : 50%;
 	-webkit-transform : translate(-50%, 0%);
 	    -ms-transform : translate(-50%, 0%);
 	        transform : translate(-50%, 0%);
 	width : 100%;
-	height : calc(100% + 110px);
+	height : 100%;
 	z-index : 1;
+	border-radius : 100px 0 0 0;
 }
 
 .partner-main__bg img {
@@ -6168,18 +6169,20 @@ h6 {
 	height : 100%;
 	-o-object-fit : cover;
 	   object-fit : cover;
+	border-radius : 100px 0 0 0;
 }
 
 .partner-main::after {
 	content : "";
+	border-radius : 100px 0 0 0;
 	position : absolute;
-	top : -110px;
+	top : 0;
 	left : 50%;
 	-webkit-transform : translate(-50%, 0%);
 	    -ms-transform : translate(-50%, 0%);
 	        transform : translate(-50%, 0%);
 	width : 100%;
-	height : calc(100% + 110px);
+	height : 100%;
 	z-index : 2;
 	background : -o-linear-gradient(345.88deg, rgba(0, 99, 190, 0.92) 32.95%, rgba(0, 99, 190, 0) 102.05%);
 	background :    linear-gradient(104.12deg, rgba(0, 99, 190, 0.92) 32.95%, rgba(0, 99, 190, 0) 102.05%);
@@ -9153,6 +9156,19 @@ h6 {
 	.news-main__m-p img {
 		border-radius : 0px 20px 20px 20px;
 	}
+
+	.news-main {
+		margin : 80px 0 0 0;
+	}
+
+	.news-main__t {
+		font-family : TTNorms;
+		font-style : normal;
+		font-weight : 700;
+		font-size : 30px;
+		line-height : 135%;
+		color : #363636;
+	}
 }
 
 @media (max-width: 700px) {
@@ -10466,6 +10482,19 @@ h6 {
 		padding : 0;
 	}
 
+	.contact-main {
+		margin : 80px 0 0 0;
+	}
+
+	.contact-main__t {
+		font-family : TTNorms;
+		font-style : normal;
+		font-weight : 700;
+		font-size : 30px;
+		line-height : 135%;
+		color : #363636;
+	}
+
 	.team-main__t {
 		font-family : TTNorms;
 		font-style : normal;
@@ -10760,6 +10789,20 @@ h6 {
 
 	.partner-form__file svg {
 		right : 30px;
+	}
+
+	.partner-main__bg {
+		border-radius : 0 0 0 0;
+	}
+
+	.partner-main__bg img {
+		border-radius : 0 0 0 0;
+	}
+
+	.partner-main::after {
+		border-radius : 0 0 0 0;
+		background : -o-linear-gradient(285.97deg, rgba(0, 99, 190, 0.81) 63.87%, rgba(0, 99, 190, 0) 100%);
+		background :    linear-gradient(164.03deg, rgba(0, 99, 190, 0.81) 63.87%, rgba(0, 99, 190, 0) 100%);
 	}
 
 	.footer__info-c a {
