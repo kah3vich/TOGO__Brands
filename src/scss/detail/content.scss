@@ -1,4 +1,4 @@
-.news-main {
+.detail-main {
 	width: 100%;
 	position: relative;
 	z-index: 2;
@@ -24,8 +24,9 @@
 		display: flex;
 		cursor: pointer;
 		width: 100%;
-		align-items: stretch;
-		justify-content: space-between;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
 		&-p {
 			width: 710px;
 			margin: 0 40px 0 0;
@@ -42,16 +43,18 @@
 			display: flex;
 			flex-direction: column;
 			align-items: flex-start;
-			width: 445px;
+			width: 100%;
 			justify-content: center;
 		}
 		&-t {
+			margin: 65px 0 0 0;
 			font-family: TTNorms;
 			font-style: normal;
-			font-weight: 700;
-			font-size: 32px;
-			line-height: 37px;
-			color: #272d4e;
+			font-weight: 500;
+			width: 655px;
+			font-size: 18px;
+			line-height: 30px;
+			color: #2c2c2c;
 		}
 		&-d {
 			font-family: TTNorms;

@@ -6,6 +6,18 @@ window.addEventListener("scroll", function () {
 	}
 });
 
+$(".ind-main__video").on("click", () => {
+	$(".video").removeClass("display-n");
+	$("body").css("overflow", "hidden");
+});
+
+$(".video__close").on("click", () => {
+	$(".video").addClass("display-n");
+	$("body").css("overflow", "visible");
+	var video = document.getElementById("vide");
+	video.pause();
+});
+
 let indexNews = new Swiper(".indexNews", {
 	pagination: {
 		el: ".ind-news__s .swiper-pagination",

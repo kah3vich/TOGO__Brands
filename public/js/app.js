@@ -7,6 +7,16 @@ window.addEventListener("scroll", function () {
     $(".footer").addClass("opacity");
   }
 });
+$(".ind-main__video").on("click", function () {
+  $(".video").removeClass("display-n");
+  $("body").css("overflow", "hidden");
+});
+$(".video__close").on("click", function () {
+  $(".video").addClass("display-n");
+  $("body").css("overflow", "visible");
+  var video = document.getElementById("vide");
+  video.pause();
+});
 var indexNews = new Swiper(".indexNews", {
   pagination: {
     el: ".ind-news__s .swiper-pagination",
