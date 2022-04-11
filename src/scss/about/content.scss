@@ -162,6 +162,7 @@
 	z-index: 2;
 	background: #fff;
 	padding: 90px 0;
+	overflow: hidden;
 	&__wrapper {
 		display: flex;
 		flex-direction: column;
@@ -345,3 +346,137 @@
 		}
 	}
 }
+
+
+.about__banner {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 90px 0;
+	position: relative;
+}
+
+.about__banner-i  {
+	width: 65.70%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 0 50px 0;
+	transition: all 0.5s ease;
+	background: transparent;
+	position: relative;
+	z-index: 3;
+	opacity: 0;
+	&:nth-child(even) {
+		margin: 0 0 0 auto;
+	}
+	&:nth-child(odd) {
+		margin: 0 auto 0 0;
+	}
+	&:last-child {
+		padding: 0 0 0 0;
+	}
+	& img {
+		width: 100%;
+	}
+}
+
+.about__line {
+	width: 24px;
+	height: 100%;
+	background: #EFEFEF;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	border-radius: 50px;
+	z-index: 1;
+	overflow: hidden;
+	// &__progress {
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 50%;
+	// 	transform: translate(-50%, 0);
+	// 	width: 100%;
+	// 	height: 10px;
+	// 	background: red;
+	// 	border-radius: 50px;
+	// }
+}
+
+.show {
+	opacity: 1;
+	transition: all 0.5s ease;
+}
+
+// /* Style the header: fixed position (always stay at the top) */
+  
+//   /* The progress container (grey background) */
+//   .progress-container {
+// 	width: 24px;
+// 	height: 100%;
+// 	background: #ccc;
+// 	overflow: hidden;
+// 	position: absolute;
+// 	top: 0;
+// 	left: 50%;
+// 	transform: translate(-50%, 0);
+//   }
+  
+//   /* The progress bar (scroll indicator) */
+//   .progress-bar {
+// 	height: 10px;
+// 	background: #04AA6D;
+// 	width: 24px;
+// 	position: absolute;
+// 	top: 0;
+// 	left: 50%;
+// 	transform: translate(-50%, 0);
+//   }
+
+
+// .progress__line {
+// 	width: 24px;
+// 	height: 100%;
+// 	background: #EFEFEF;
+// 	position: absolute;
+// 	top: 0;
+// 	left: 50%;
+// 	transform: translate(-50%, 0);
+// 	border-radius: 50px;
+// 	z-index: -7;
+// 	overflow: hidden;
+// }
+
+// .progress__bar {
+// 	position: fixed;
+// 	top: 0;
+// 	left: 50%;
+// 	z-index: -5;
+// 	transform: translate(-50%, 0);
+// 	width: 24px;
+// 	height: 50vh;
+// 	background: red;
+// 	border-radius: 50px;
+// }
+
+
+// #scrollbar {
+// 	width: 1%;
+// 	height: 100%;
+// 	padding: 0;
+// 	margin: 0 0 0 auto;
+// 	right: 0;
+// 	top: 0;
+// 	position: absolute;
+// 	background-color: transparent;
+//   }
+  
+//   #scrollbar #bar {
+// 	width: 100%;
+// 	height: 0%;
+// 	background-color: blue;
+//   }
