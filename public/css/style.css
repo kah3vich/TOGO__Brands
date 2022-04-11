@@ -3488,7 +3488,7 @@ h6 {
 }
 
 .about__banner-i {
-	width : 65.7%;
+	width : 65.5%;
 	height : 100%;
 	display : -webkit-box;
 	display : -ms-flexbox;
@@ -3527,10 +3527,12 @@ h6 {
 
 .about__line {
 	width : 24px;
+	max-height : calc(100% - 180px);
 	height : 100%;
 	background : #EFEFEF;
 	position : absolute;
-	top : 0;
+	top : 90px;
+	bottom : 90px;
 	left : 50%;
 	-webkit-transform : translate(-50%, 0);
 	    -ms-transform : translate(-50%, 0);
@@ -3538,6 +3540,22 @@ h6 {
 	border-radius : 50px;
 	z-index : 1;
 	overflow : hidden;
+}
+
+.about__line__progress {
+	position : absolute;
+	top : 0;
+	left : 50%;
+	-webkit-transform : translate(-50%, 0);
+	    -ms-transform : translate(-50%, 0);
+	        transform : translate(-50%, 0);
+	width : 100%;
+	height : 0;
+	background : red;
+	border-radius : 50px;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .show {

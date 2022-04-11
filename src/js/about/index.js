@@ -18,16 +18,72 @@ function checkBoxes() {
     })
 }
 
+// const obj__animation = {
+//     elem__1: 7,
+//     elem__2: 20,
+//     elem__3: 30,
+//     elem__4: 40,
+//     elem__5: 50,
+//     elem__6: 60,
+//     elem__7: 70,
+// }
+
+// obj__animation.forEach((name_, height_) => {
+//     gsap.timeline({
+//         scrollTrigger: {
+//             trigger: `#${name_}`,
+//             start: "top center",
+//             end: "bottom bottom",
+//             markers: false,
+//             scrub: true,
+//             ease: Expo.easeOut
+//         }
+//     })
+//     .to("#lines__p",  { height: `${height_}%` }, 0)
+// })
+
+// for (var key in obj__animation) {
+//     console.log( "Ключ: " + key + " значение: " + obj__animation[key] );
+// }
+
+const obj = {
+    elem__1: 7,
+    elem__2: 20,
+    elem__3: 35,
+    elem__4: 50,
+    elem__5: 63,
+    elem__6: 78,
+    elem__7: 100,
+}
+
+for (let key in obj) {
+    if(obj.hasOwnProperty(key)){
+        console.log(`${key} : ${obj[key]}`)
+        gsap.timeline({
+            scrollTrigger: {
+                trigger: `#${key}`,
+                start: "top center",
+                end: "bottom bottom",
+                markers: false,
+                scrub: true,
+                ease: Expo.easeOut
+            }
+        })
+        .to("#lines__p",  { height: `${obj[key]}%` }, 0)
+    }
+}
+
+
 // gsap.timeline({
 //     scrollTrigger: {
-//         trigger: "#lines",
-//         start: "center bottom",
-//         end: "top top",
+//         trigger: "#elem__2",
+//         start: "top center",
+//         end: "bottom bottom",
 //         markers: true,
-//         scrub: true
+//         scrub: true,
+//         ease: Expo.easeOut
 //     }
 // })
-// .to("#lines__p",  { height: '10%' }, 0)
 // .to("#lines__p",  { height: '20%' }, 0)
 
 
