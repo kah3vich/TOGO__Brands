@@ -1,46 +1,44 @@
-const boxes = document.querySelectorAll('.about__banner-i ')
+const boxes = document.querySelectorAll(".about__banner-i ");
 
-window.addEventListener('scroll', checkBoxes)
+window.addEventListener("scroll", checkBoxes);
 
-checkBoxes()
+checkBoxes();
 
 function checkBoxes() {
-    const triggerBottom = window.innerHeight / 8 * 4
+	const triggerBottom = (window.innerHeight / 8) * 4;
 
-    boxes.forEach(box => {
-        const boxTop = box.getBoundingClientRect().top
+	boxes.forEach((box) => {
+		const boxTop = box.getBoundingClientRect().top;
 
-        if (boxTop < triggerBottom) {
-            box.classList.add('show')
-        } else {
-            box.classList.remove('show')
-        }
-    })
+		if (boxTop < triggerBottom) {
+			box.classList.add("show");
+		} else {
+			box.classList.remove("show");
+		}
+	});
 }
 
 const obj = {
-    elem__1: 7,
-    elem__2: 20,
-    elem__3: 35,
-    elem__4: 50,
-    elem__5: 63,
-    elem__6: 78,
-    elem__7: 100,
-}
+	elem__1: 7,
+	elem__2: 20,
+	elem__3: 35,
+	elem__4: 50,
+	elem__5: 63,
+	elem__6: 78,
+	elem__7: 100,
+};
 
 for (let key in obj) {
-    if(obj.hasOwnProperty(key)){
-        console.log(`${key} : ${obj[key]}`)
-        gsap.timeline({
-            scrollTrigger: {
-                trigger: `#${key}`,
-                start: "top center",
-                end: "bottom bottom",
-                markers: false,
-                scrub: true,
-                ease: Expo.easeOut
-            }
-        })
-        .to("#lines__p",  { height: `${obj[key]}%` }, 0)
-    }
+	if (obj.hasOwnProperty(key)) {
+		gsap.timeline({
+			scrollTrigger: {
+				trigger: `#${key}`,
+				start: "top center",
+				end: "bottom bottom",
+				markers: false,
+				scrub: true,
+				ease: Expo.easeOut,
+			},
+		}).to("#lines__p", { height: `${obj[key]}%` }, 0);
+	}
 }

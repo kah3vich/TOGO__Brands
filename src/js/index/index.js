@@ -6,7 +6,7 @@ window.addEventListener("scroll", function () {
 	}
 });
 
-$(".ind-main__video").on("click", () => {
+$(".ind-main__video, .ind-main__video-play").on("click", () => {
 	$(".video").removeClass("display-n");
 	$("body").css("overflow", "hidden");
 });
