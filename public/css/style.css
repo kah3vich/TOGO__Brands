@@ -9673,6 +9673,14 @@ h6 {
 		line-height : 135%;
 		color : #363636;
 	}
+
+	.footer__nav {
+		display : none;
+	}
+
+	.footer__block {
+		height : 540px;
+	}
 }
 
 @media (max-width: 700px) {
@@ -10131,7 +10139,7 @@ h6 {
 	}
 
 	.footer__block {
-		height : 630px;
+		height : 540px;
 	}
 }
 
