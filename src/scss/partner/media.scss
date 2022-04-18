@@ -131,9 +131,6 @@
 			width: 100%;
 		}
 	}
-	.partner-grafic .containers {
-		padding: 0 60px;
-	}
 	.partner-grafic__g-l {
 		width: 17px;
 	}
@@ -144,12 +141,6 @@
 		right: 11%;
 		transform: none;
 		left: auto;
-	}
-}
-
-@media (max-width: 800px) {
-	.partner-grafic .containers {
-		padding: 0 0 0 25px;
 	}
 }
 
