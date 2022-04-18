@@ -18,7 +18,7 @@ function checkBoxes() {
 	});
 }
 
-const obj = {
+const obj__about = {
 	elem__1: 7,
 	elem__2: 20,
 	elem__3: 35,
@@ -28,8 +28,8 @@ const obj = {
 	elem__7: 100,
 };
 
-for (let key in obj) {
-	if (obj.hasOwnProperty(key)) {
+for (let key in obj__about) {
+	if (obj__about.hasOwnProperty(key)) {
 		gsap.timeline({
 			scrollTrigger: {
 				trigger: `#${key}`,
@@ -39,6 +39,6 @@ for (let key in obj) {
 				scrub: true,
 				ease: Expo.easeOut,
 			},
-		}).to("#lines__p", { height: `${obj[key]}%` }, 0);
+		}).to("#lines__p", { height: `${obj__about[key]}%` }, 0);
 	}
 }
