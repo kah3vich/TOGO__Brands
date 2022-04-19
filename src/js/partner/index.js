@@ -20,6 +20,10 @@ let partnerTeamSlider = new Swiper(".partnerTeamSlider", {
 		el: ".partner-team__slider .swiper-pagination",
 		type: "progressbar",
 	},
+	navigation: {
+		nextEl: ".partner-team__slider .swiper-button-next",
+		prevEl: ".partner-team__slider .swiper-button-prev",
+	},
 	breakpoints: {
 		700: {
 			slidesPerView: 2,

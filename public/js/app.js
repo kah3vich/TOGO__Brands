@@ -54,6 +54,10 @@ var indexTeam = new Swiper(".indexTeam", {
     el: ".ind-team__slider .swiper-pagination",
     type: "progressbar"
   },
+  navigation: {
+    nextEl: ".ind-team__slider .swiper-button-next",
+    prevEl: ".ind-team__slider .swiper-button-prev"
+  },
   breakpoints: {
     700: {
       slidesPerView: 2,
@@ -125,6 +129,10 @@ var investorTeamSlider = new Swiper(".investorTeamSlider", {
     el: ".investor-team__slider .swiper-pagination",
     type: "progressbar"
   },
+  navigation: {
+    nextEl: ".investor-team__slider .swiper-button-next",
+    prevEl: ".investor-team__slider .swiper-button-prev"
+  },
   breakpoints: {
     700: {
       slidesPerView: 2,
@@ -157,6 +165,10 @@ var partnerTeamSlider = new Swiper(".partnerTeamSlider", {
   pagination: {
     el: ".partner-team__slider .swiper-pagination",
     type: "progressbar"
+  },
+  navigation: {
+    nextEl: ".partner-team__slider .swiper-button-next",
+    prevEl: ".partner-team__slider .swiper-button-prev"
   },
   breakpoints: {
     700: {

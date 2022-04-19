@@ -57,6 +57,10 @@ let indexTeam = new Swiper(".indexTeam", {
 		el: ".ind-team__slider .swiper-pagination",
 		type: "progressbar",
 	},
+	navigation: {
+		nextEl: ".ind-team__slider .swiper-button-next",
+		prevEl: ".ind-team__slider .swiper-button-prev",
+	},
 	breakpoints: {
 		700: {
 			slidesPerView: 2,
