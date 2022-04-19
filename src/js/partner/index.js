@@ -3,6 +3,10 @@ let partnerPortfolioSlider = new Swiper(".partnerPortfolioSlider", {
 		el: ".partner-portfolio__slider .swiper-pagination",
 		type: "progressbar",
 	},
+	navigation: {
+		nextEl: ".partner-portfolio__slider .swiper-button-next",
+		prevEl: ".partner-portfolio__slider .swiper-button-prev",
+	},
 	breakpoints: {
 		700: {
 			slidesPerView: 2,

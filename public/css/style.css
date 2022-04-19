@@ -571,7 +571,7 @@ h6 {
 	visibility : visible;
 	width : 645px;
 	padding : 47px 38px;
-	background : #FFFFFF;
+	background : #ffffff;
 	-webkit-box-shadow : 0px 4px 100px rgba(0, 0, 0, 0.25);
 	        box-shadow : 0px 4px 100px rgba(0, 0, 0, 0.25);
 	border-radius : 0px 100px 100px 100px;
@@ -583,7 +583,7 @@ h6 {
 	font-weight : 500;
 	font-size : 18px;
 	line-height : 32px;
-	color : #2C2C2C;
+	color : #2c2c2c;
 }
 
 .header__block {
@@ -656,6 +656,34 @@ h6 {
 	-ms-flex-pack : justify;
 	justify-content : space-between;
 	width : 750px;
+}
+
+.header__i {
+	position : relative;
+}
+
+.header__i::after {
+	content : "";
+	position : absolute;
+	bottom : -12px;
+	left : 50%;
+	-webkit-transform : translate(-50%, 0%);
+	    -ms-transform : translate(-50%, 0%);
+	        transform : translate(-50%, 0%);
+	width : 42px;
+	height : 1px;
+	border-top : 1px solid #3ea3f2;
+	opacity : 0;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
+}
+
+.header__i:hover::after {
+	opacity : 1;
+	-webkit-transition : all 0.5s ease;
+	     -o-transition : all 0.5s ease;
+	        transition : all 0.5s ease;
 }
 
 .header__i a {
@@ -2380,7 +2408,7 @@ h6 {
 }
 
 .ind-portfolio__start p {
-	font-family : TT Norms;
+	font-family : TTNorms;
 	font-style : normal;
 	font-weight : 700;
 	font-size : 40px;
@@ -2517,6 +2545,62 @@ h6 {
 	font-size : 14px;
 	line-height : 19px;
 	color : #232323;
+}
+
+.ind-portfolio .swiper-button-next {
+	width : 41px;
+	height : 41px;
+	border-radius : 50%;
+	background : #3ea3f2;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : center;
+	-ms-flex-pack : center;
+	justify-content : center;
+	cursor : pointer;
+	top : auto;
+	bottom : -12px;
+	right : 0;
+}
+
+.ind-portfolio .swiper-button-next::after {
+	content : none;
+}
+
+.ind-portfolio .swiper-button-prev {
+	width : 41px;
+	height : 41px;
+	border-radius : 50%;
+	background : #3ea3f2;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : center;
+	-ms-flex-pack : center;
+	justify-content : center;
+	cursor : pointer;
+	top : auto;
+	bottom : -12px;
+	left : 0;
+}
+
+.ind-portfolio .swiper-button-prev::after {
+	content : none;
+}
+
+.ind-portfolio .swiper-pagination {
+	width : 65%;
+	left : 50%;
+	-webkit-transform : translate(-50%, 0);
+	    -ms-transform : translate(-50%, 0);
+	        transform : translate(-50%, 0);
 }
 
 .ind-team {
@@ -2955,7 +3039,7 @@ h6 {
 }
 
 .ind-news__list {
-	margin : 70px 0 0 0;
+	margin : 20px 0 0 0;
 	display : -webkit-box;
 	display : -ms-flexbox;
 	display : flex;
@@ -3045,6 +3129,62 @@ h6 {
 	font-size : 18px;
 	line-height : 25px;
 	color : #0063be;
+}
+
+.ind-news .swiper-button-next {
+	width : 41px;
+	height : 41px;
+	border-radius : 50%;
+	background : #3ea3f2;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : center;
+	-ms-flex-pack : center;
+	justify-content : center;
+	cursor : pointer;
+	top : auto;
+	bottom : -12px;
+	right : 0;
+}
+
+.ind-news .swiper-button-next::after {
+	content : none;
+}
+
+.ind-news .swiper-button-prev {
+	width : 41px;
+	height : 41px;
+	border-radius : 50%;
+	background : #3ea3f2;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : center;
+	-ms-flex-pack : center;
+	justify-content : center;
+	cursor : pointer;
+	top : auto;
+	bottom : -12px;
+	left : 0;
+}
+
+.ind-news .swiper-button-prev::after {
+	content : none;
+}
+
+.ind-news .swiper-pagination {
+	width : 65%;
+	left : 50%;
+	-webkit-transform : translate(-50%, 0);
+	    -ms-transform : translate(-50%, 0);
+	        transform : translate(-50%, 0);
 }
 
 .about-main {
@@ -4030,7 +4170,7 @@ h6 {
 	padding : 25px 40px 25px 20px;
 	position : relative;
 	margin : 0 0 0 50px;
-	width : 465px;
+	width : 475px;
 }
 
 .portfolio-list__b-i:first-child {
@@ -4071,7 +4211,7 @@ h6 {
 	display : -webkit-box;
 	display : -ms-flexbox;
 	display : flex;
-	width : 300px;
+	width : 310px;
 	-webkit-box-orient : vertical;
 	-webkit-box-direction : normal;
 	-ms-flex-direction : column;
@@ -4130,6 +4270,62 @@ h6 {
 
 .portfolio-list__b-link img {
 	margin : 0 0 0 15px;
+}
+
+.portfolio-list .swiper-button-next {
+	width : 41px;
+	height : 41px;
+	border-radius : 50%;
+	background : #3ea3f2;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : center;
+	-ms-flex-pack : center;
+	justify-content : center;
+	cursor : pointer;
+	top : auto;
+	bottom : -12px;
+	right : 0;
+}
+
+.portfolio-list .swiper-button-next::after {
+	content : none;
+}
+
+.portfolio-list .swiper-button-prev {
+	width : 41px;
+	height : 41px;
+	border-radius : 50%;
+	background : #3ea3f2;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : center;
+	-ms-flex-pack : center;
+	justify-content : center;
+	cursor : pointer;
+	top : auto;
+	bottom : -12px;
+	left : 0;
+}
+
+.portfolio-list .swiper-button-prev::after {
+	content : none;
+}
+
+.portfolio-list .swiper-pagination {
+	width : 65%;
+	left : 50%;
+	-webkit-transform : translate(-50%, 0);
+	    -ms-transform : translate(-50%, 0);
+	        transform : translate(-50%, 0);
 }
 
 .investor-main {
@@ -4589,6 +4785,62 @@ h6 {
 	font-size : 15px;
 	line-height : 19px;
 	color : #232323;
+}
+
+.investor-portfolio .swiper-button-next {
+	width : 41px;
+	height : 41px;
+	border-radius : 50%;
+	background : #3ea3f2;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : center;
+	-ms-flex-pack : center;
+	justify-content : center;
+	cursor : pointer;
+	top : auto;
+	bottom : -12px;
+	right : 0;
+}
+
+.investor-portfolio .swiper-button-next::after {
+	content : none;
+}
+
+.investor-portfolio .swiper-button-prev {
+	width : 41px;
+	height : 41px;
+	border-radius : 50%;
+	background : #3ea3f2;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : center;
+	-ms-flex-pack : center;
+	justify-content : center;
+	cursor : pointer;
+	top : auto;
+	bottom : -12px;
+	left : 0;
+}
+
+.investor-portfolio .swiper-button-prev::after {
+	content : none;
+}
+
+.investor-portfolio .swiper-pagination {
+	width : 65%;
+	left : 50%;
+	-webkit-transform : translate(-50%, 0);
+	    -ms-transform : translate(-50%, 0);
+	        transform : translate(-50%, 0);
 }
 
 .investor-team {
@@ -6856,7 +7108,7 @@ h6 {
 	display : -ms-grid;
 	display :     grid;
 	padding : 0 100px;
-	grid-template-columns : repeat(auto-fill, minmax(310px, 1fr));
+	grid-template-columns : repeat(auto-fill, minmax(300px, 1fr));
 	gap : 30px;
 	width : 100%;
 }
@@ -6957,6 +7209,62 @@ h6 {
 	font-size : 15px;
 	line-height : 19px;
 	color : #232323;
+}
+
+.partner-portfolio .swiper-button-next {
+	width : 41px;
+	height : 41px;
+	border-radius : 50%;
+	background : #3ea3f2;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : center;
+	-ms-flex-pack : center;
+	justify-content : center;
+	cursor : pointer;
+	top : auto;
+	bottom : -12px;
+	right : 0;
+}
+
+.partner-portfolio .swiper-button-next::after {
+	content : none;
+}
+
+.partner-portfolio .swiper-button-prev {
+	width : 41px;
+	height : 41px;
+	border-radius : 50%;
+	background : #3ea3f2;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+	-webkit-box-pack : center;
+	-ms-flex-pack : center;
+	justify-content : center;
+	cursor : pointer;
+	top : auto;
+	bottom : -12px;
+	left : 0;
+}
+
+.partner-portfolio .swiper-button-prev::after {
+	content : none;
+}
+
+.partner-portfolio .swiper-pagination {
+	width : 65%;
+	left : 50%;
+	-webkit-transform : translate(-50%, 0);
+	    -ms-transform : translate(-50%, 0);
+	        transform : translate(-50%, 0);
 }
 
 .partner-description {
@@ -10547,6 +10855,8 @@ h6 {
 		font-size : 30px;
 		line-height : 135%;
 		color : #363636;
+		text-align : center;
+		width : 100%;
 	}
 
 	.ind-portfolio__start p {

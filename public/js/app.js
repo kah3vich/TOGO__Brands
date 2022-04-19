@@ -22,6 +22,10 @@ var indexNews = new Swiper(".indexNews", {
     el: ".ind-news__s .swiper-pagination",
     type: "progressbar"
   },
+  navigation: {
+    nextEl: ".ind-news__s .swiper-button-next",
+    prevEl: ".ind-news__s .swiper-button-prev"
+  },
   breakpoints: {
     700: {
       slidesPerView: 2,
@@ -37,6 +41,10 @@ var indexPortfolio = new Swiper(".indexPortfolio", {
   pagination: {
     el: ".ind-portfolio__slider .swiper-pagination",
     type: "progressbar"
+  },
+  navigation: {
+    nextEl: ".ind-portfolio__slider .swiper-button-next",
+    prevEl: ".ind-portfolio__slider .swiper-button-prev"
   },
   breakpoints: {
     700: {
@@ -96,6 +104,10 @@ var portfolioSlider = new Swiper(".portfolioSlider", {
     el: ".portfolio-list__slider .swiper-pagination",
     type: "progressbar"
   },
+  navigation: {
+    nextEl: ".portfolio-list__slider .swiper-button-next",
+    prevEl: ".portfolio-list__slider .swiper-button-prev"
+  },
   breakpoints: {
     700: {
       slidesPerView: 2,
@@ -112,6 +124,10 @@ var investorPortfolioSlider = new Swiper(".investorPortfolioSlider", {
   pagination: {
     el: ".investor-portfolio__slider .swiper-pagination",
     type: "progressbar"
+  },
+  navigation: {
+    nextEl: ".investor-portfolio__slider .swiper-button-next",
+    prevEl: ".investor-portfolio__slider .swiper-button-prev"
   },
   breakpoints: {
     700: {
@@ -149,6 +165,10 @@ var partnerPortfolioSlider = new Swiper(".partnerPortfolioSlider", {
   pagination: {
     el: ".partner-portfolio__slider .swiper-pagination",
     type: "progressbar"
+  },
+  navigation: {
+    nextEl: ".partner-portfolio__slider .swiper-button-next",
+    prevEl: ".partner-portfolio__slider .swiper-button-prev"
   },
   breakpoints: {
     700: {

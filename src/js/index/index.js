@@ -23,6 +23,10 @@ let indexNews = new Swiper(".indexNews", {
 		el: ".ind-news__s .swiper-pagination",
 		type: "progressbar",
 	},
+	navigation: {
+		nextEl: ".ind-news__s .swiper-button-next",
+		prevEl: ".ind-news__s .swiper-button-prev",
+	},
 	breakpoints: {
 		700: {
 			slidesPerView: 2,
@@ -39,6 +43,10 @@ let indexPortfolio = new Swiper(".indexPortfolio", {
 	pagination: {
 		el: ".ind-portfolio__slider .swiper-pagination",
 		type: "progressbar",
+	},
+	navigation: {
+		nextEl: ".ind-portfolio__slider .swiper-button-next",
+		prevEl: ".ind-portfolio__slider .swiper-button-prev",
 	},
 	breakpoints: {
 		700: {

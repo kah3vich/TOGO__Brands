@@ -3,6 +3,10 @@ let investorPortfolioSlider = new Swiper(".investorPortfolioSlider", {
 		el: ".investor-portfolio__slider .swiper-pagination",
 		type: "progressbar",
 	},
+	navigation: {
+		nextEl: ".investor-portfolio__slider .swiper-button-next",
+		prevEl: ".investor-portfolio__slider .swiper-button-prev",
+	},
 	breakpoints: {
 		700: {
 			slidesPerView: 2,
