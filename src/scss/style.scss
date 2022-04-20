@@ -177,6 +177,9 @@ h6 {
 		cursor: pointer;
 		height: 50px;
 		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
 	}
 	&__l {
 		display: flex;
