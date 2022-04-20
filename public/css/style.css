@@ -1691,7 +1691,7 @@ h6 {
 	font-family : TTNorms;
 	font-style : normal;
 	font-weight : 700;
-	font-size : 40px;
+	font-size : 37px;
 	line-height : 54px;
 	color : #363636;
 }
@@ -1702,7 +1702,7 @@ h6 {
 
 .ind-main__info-d {
 	margin : 45px 0 0 0;
-	width : 85%;
+	width : 100%;
 }
 
 .ind-main__info-d p {
@@ -1715,7 +1715,7 @@ h6 {
 }
 
 .ind-main__info-btns {
-	margin : 60px 0 0 0;
+	margin : 70px 0 0 0;
 	position : relative;
 	width : 100%;
 }
@@ -5938,7 +5938,7 @@ h6 {
 	-webkit-box-pack : start;
 	-ms-flex-pack : start;
 	justify-content : flex-start;
-	padding : 25px 0 75px 0;
+	padding : 0 0 75px 0;
 	position : relative;
 	width : 100%;
 }
@@ -12153,7 +12153,7 @@ h6 {
 	}
 
 	.ind-main__info-btns {
-		margin : 40px 0 0 0;
+		margin : 60px 0 0 0;
 	}
 
 	.ind-main__info-d {
