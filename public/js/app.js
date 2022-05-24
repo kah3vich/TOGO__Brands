@@ -254,7 +254,7 @@ for (var key in obj__partner) {
 }
 
 ;
-var boxes = document.querySelectorAll(".about__banner-i ");
+var boxes = document.querySelectorAll(".about__banner-i");
 window.addEventListener("scroll", checkBoxes);
 checkBoxes();
 

@@ -1,4 +1,4 @@
-const boxes = document.querySelectorAll(".about__banner-i ");
+const boxes = document.querySelectorAll(".about__banner-i");
 
 window.addEventListener("scroll", checkBoxes);
 
